@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Note — Ideas</title><script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    :root{--bg:#faf9f6;--text:#1b1b1b;--muted:#77716b;--line:#e9e1d8;--accent:#b7794c;--quote:#f4ece3;font-family:"LXGW WenKai","Noto Serif SC",Georgia,serif}@media(prefers-color-scheme:dark){:root{--bg:#141312;--text:#eee8df;--muted:#9c948b;--line:#302b26;--accent:#d59a6f;--quote:#211d19}}body{margin:0;background:var(--bg);color:var(--text);line-height:1.9}.wrap{max-width:740px;margin:0 auto;padding:42px 22px 80px}.back{font-family:Inter,-apple-system,sans-serif;color:var(--accent);text-decoration:none;font-size:14px}.meta{font-family:Inter,-apple-system,sans-serif;color:var(--muted);font-size:14px;margin-top:30px}h1{font-size:42px;line-height:1.18;letter-spacing:-.03em;margin:10px 0 18px}article{font-size:18px}article h1{font-size:34px}article h2{font-size:26px;margin-top:38px}article p{margin:1em 0}article a{color:var(--accent)}article blockquote{border-left:3px solid var(--accent);background:var(--quote);margin:24px 0;padding:12px 18px;color:var(--muted)}code{background:var(--quote);padding:2px 5px;border-radius:5px}pre{background:var(--quote);padding:16px;border-radius:14px;overflow:auto}.tags{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 34px}.tag{font-family:Inter,-apple-system,sans-serif;font-size:12px;color:var(--accent);background:var(--quote);padding:3px 9px;border-radius:999px}.err{color:var(--muted);border:1px dashed var(--line);border-radius:16px;padding:24px}</style>
+</head>
+<body><main class="wrap"><a class="back" href="/">← 返回首页</a><div id="head"></div><article id="content"></article></main>
+<script>
+const slug=new URLSearchParams(location.search).get('slug')||'hello-world';
+fetch(`/content/notes/${slug}.md`).then(r=>{if(!r.ok)throw new Error('not found');return r.text()}).then(txt=>{const {fm,body}=parse(txt); document.title=(fm.title||slug)+' — Ideas'; document.querySelector('#head').innerHTML=`<div class="meta">${fm.date||''} · ${fm.category||'note'}</div><h1>${fm.title||slug}</h1><div class="tags">${(fm.tags||[]).map(t=>`<span class="tag">${t}</span>`).join('')}</div>`; document.querySelector('#content').innerHTML=marked.parse(body);}).catch(()=>{document.querySelector('#content').innerHTML='<div class="err">没有找到这篇笔记。请检查 slug 和 Markdown 文件是否存在。</div>'});
+function parse(txt){let fm={},body=txt;if(txt.startsWith('---')){const end=txt.indexOf('\n---',3); if(end>-1){const raw=txt.slice(3,end).trim(); body=txt.slice(end+4).trim(); raw.split('\n').forEach(line=>{const i=line.indexOf(':'); if(i<0)return; const k=line.slice(0,i).trim(), v=line.slice(i+1).trim(); if(v.startsWith('[')){try{fm[k]=JSON.parse(v.replaceAll("'",'\"'))}catch{fm[k]=[]}} else fm[k]=v.replace(/^"|"$/g,'')});}}return{fm,body};}
+</script></body></html>

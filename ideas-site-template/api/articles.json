@@ -1,0 +1,15 @@
+{
+  "site": "Ideas",
+  "updated": "2026-06-20",
+  "notes": [
+    {
+      "slug": "hello-world",
+      "title": "我的第一条想法",
+      "date": "2026-06-20",
+      "category": "notes",
+      "tags": ["开始", "想法仓库"],
+      "summary": "这是网站上线后的第一条示例笔记。以后你可以把想法发给 Agent，由 Agent 整理后同步到这里。",
+      "url": "/note.html?slug=hello-world"
+    }
+  ]
+}

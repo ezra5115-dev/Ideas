@@ -1,0 +1,14 @@
+# Ideas
+> Personal idea archive. Human-readable and LLM-readable notes.
+
+## How to use
+- Browse the site homepage for public notes.
+- Structured data: /api/articles.json
+- Markdown notes live under /content/notes/
+
+## Notes
+
+### 我的第一条想法
+- Date: 2026-06-20
+- Tags: 开始, 想法仓库
+- URL: /note.html?slug=hello-world

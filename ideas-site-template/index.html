@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ideas — 想法仓库</title>
+  <meta name="description" content="一个由 Agent 整理和同步的个人想法仓库。" />
+  <link rel="alternate" type="application/json" href="/api/articles.json" />
+  <link rel="alternate" type="text/plain" href="/llms.txt" />
+  <style>
+    :root{--bg:#faf9f6;--card:#fff;--text:#181818;--muted:#75716c;--line:#e8e2da;--accent:#b7794c;--soft:#f3ebe3;--shadow:0 8px 30px rgba(20,15,10,.06);font-family:Inter,-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif} @media(prefers-color-scheme:dark){:root{--bg:#141312;--card:#1e1c1a;--text:#eee8df;--muted:#9d958c;--line:#302b26;--accent:#d59a6f;--soft:#2a221d;--shadow:none}}
+    *{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at 20% 0%,var(--soft),transparent 32%),var(--bg);color:var(--text);line-height:1.7} .wrap{max-width:860px;margin:0 auto;padding:64px 22px} header{margin-bottom:36px}.eyebrow{color:var(--accent);font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase} h1{font-size:48px;line-height:1.08;margin:10px 0 12px;letter-spacing:-.04em}.desc{font-size:18px;color:var(--muted);max-width:680px}.toolbar{display:flex;gap:12px;flex-wrap:wrap;margin:30px 0}.search{flex:1;min-width:220px;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:var(--card);color:var(--text);font-size:15px}.tag{border:1px solid var(--line);background:var(--card);color:var(--muted);padding:10px 12px;border-radius:999px;cursor:pointer}.tag.active{background:var(--accent);color:#fff;border-color:var(--accent)}.grid{display:grid;gap:16px}.card{display:block;text-decoration:none;color:inherit;background:color-mix(in srgb,var(--card) 92%,transparent);border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:var(--shadow);transition:.2s}.card:hover{transform:translateY(-2px);border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}.meta{display:flex;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:13px}.card h2{font-size:24px;margin:8px 0 8px;letter-spacing:-.02em}.summary{color:var(--muted);margin:0}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.chip{font-size:12px;color:var(--accent);background:var(--soft);padding:3px 9px;border-radius:999px}footer{margin-top:46px;color:var(--muted);font-size:13px}.empty{color:var(--muted);padding:30px;border:1px dashed var(--line);border-radius:18px}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="eyebrow">Personal Archive</div>
+      <h1>Ideas</h1>
+      <p class="desc">一个由 Agent 整理和同步的个人想法仓库。这里可以放碎片想法、Studio 产品日志、世界观档案、阅读笔记和 Prompt 实验。</p>
+    </header>
+    <section class="toolbar">
+      <input id="search" class="search" placeholder="搜索标题、摘要、标签……" />
+      <button class="tag active" data-tag="all">全部</button>
+    </section>
+    <section id="list" class="grid"></section>
+    <footer>Structured data: <a href="/api/articles.json">/api/articles.json</a> · LLM catalog: <a href="/llms.txt">/llms.txt</a></footer>
+  </main>
+<script>
+let notes=[], active='all';
+const list=document.querySelector('#list'), search=document.querySelector('#search'), toolbar=document.querySelector('.toolbar');
+fetch('/content/notes.json').then(r=>r.json()).then(data=>{notes=data.notes||[]; buildTags(); render();}).catch(()=>{list.innerHTML='<div class="empty">还没有内容，或 content/notes.json 读取失败。</div>'});
+function buildTags(){const tags=[...new Set(notes.flatMap(n=>n.tags||[]))]; tags.forEach(t=>{const b=document.createElement('button');b.className='tag';b.dataset.tag=t;b.textContent=t;toolbar.appendChild(b)}); toolbar.addEventListener('click',e=>{if(!e.target.matches('.tag'))return; active=e.target.dataset.tag; document.querySelectorAll('.tag').forEach(x=>x.classList.toggle('active',x.dataset.tag===active)); render();});}
+search.addEventListener('input',render);
+function render(){const q=search.value.trim().toLowerCase(); const items=notes.filter(n=>(active==='all'||(n.tags||[]).includes(active)) && JSON.stringify(n).toLowerCase().includes(q)); list.innerHTML=items.length?items.map(n=>`<a class="card" href="${n.url}"><div class="meta"><span>${n.date||''}</span><span>·</span><span>${n.category||'note'}</span></div><h2>${n.title}</h2><p class="summary">${n.summary||''}</p><div class="chips">${(n.tags||[]).map(t=>`<span class="chip">${t}</span>`).join('')}</div></a>`).join(''):'<div class="empty">没有匹配内容。</div>';}
+</script>
+</body>
+</html>
