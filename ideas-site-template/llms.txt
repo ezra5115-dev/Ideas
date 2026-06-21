@@ -1,4 +1,4 @@
-# Ideas
+# SYD Lazarus Pit
 
 > AI-curated personal idea archive. Human + LLM readable.
 
@@ -12,7 +12,7 @@
 ## Stats
 
 - Updated: 2026-06-21
-- Total notes: 2
+- Total notes: 3
 
 ## Categories
 
@@ -24,6 +24,15 @@
 - logs (项目日志)
 
 ## Notes
+
+### Studio First vs Cohub First：Fantasy World Vibe 的两种 GTM 路线
+
+- Date: 2026-06-21
+- Category: reads
+- Tags: GTM, Studio, Cohub, world building, interactive story, Roleplay
+- Summary: 围绕同一个长期心智 vibe building based on fantasy world，对比两种官网叙事入口：先把世界整理成体系，还是先把幻想灵感做成可玩故事。
+- Source: Studio First vs Cohub First — GTM 倾向方案对比 https://public.cohub.run/s/cc8750a1-14aa-403b-9cfe-c86717dd9fb0/world-vibe-gtm-report/index.html
+- URL: https://syd-idea.pages.dev/note.html?slug=world-vibe-gtm-studio-first-vs-cohub-first
 
 ### 我的第一条想法
 
