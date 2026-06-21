@@ -1,0 +1,39 @@
+{
+  "site": "SYD Lazarus Pit",
+  "updated": "2026-06-21",
+  "projects": [
+    {
+      "id": "world-vibe-gtm",
+      "title": "World Vibe GTM",
+      "status": "active",
+      "summary": "判断 Studio First / Cohub First 的入口策略，并把 fantasy world vibe 转成可演示、可发布、可继续迭代的产品路径。",
+      "tags": ["Studio", "Cohub", "GTM", "world building"],
+      "checklist": [
+        {"text": "明确第一优先用户：同人创作者 / 已有世界创作者", "done": true},
+        {"text": "明确第二用户：原创世界观创作者", "done": true},
+        {"text": "决定首页主入口：Studio First 还是 Cohub First", "done": false},
+        {"text": "确定 Demo seed：演出前主角失踪 / 关系紧张的二人合作", "done": true},
+        {"text": "产出第一个 playable interactive story demo", "done": false},
+        {"text": "定义 Living World Page 的最小信息结构", "done": false},
+        {"text": "整理官网首屏文案和 CTA", "done": false},
+        {"text": "设计 Agent 发布和长期记忆工作流", "done": false}
+      ]
+    },
+    {
+      "id": "ideas-site",
+      "title": "SYD Lazarus Pit 网站系统",
+      "status": "active",
+      "summary": "把 Cohub 里的想法、外部文章、世界观和 Project checklist 同步成一个长期可检索的网站。",
+      "tags": ["website", "Cohub", "agent", "archive"],
+      "checklist": [
+        {"text": "GitHub + Cloudflare Pages 自动部署", "done": true},
+        {"text": "Ideas 首页：搜索、分类、标签、月份分组", "done": true},
+        {"text": "文章页：简报 / 整理稿 / 原文 / 我的评论", "done": true},
+        {"text": "llms.txt / llms-full.txt / RSS / sitemap", "done": true},
+        {"text": "新增 Projects 二级页面", "done": true},
+        {"text": "支持从 Cohub 输入 project 更新 checklist", "done": false},
+        {"text": "支持每周自动整理项目进度", "done": false}
+      ]
+    }
+  ]
+}
