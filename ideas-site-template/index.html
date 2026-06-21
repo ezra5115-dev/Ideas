@@ -116,7 +116,7 @@ const PER_PAGE=20;
 const state={notes:[],q:'',tag:'all',cat:'all',view:'list',page:1};
 const $=s=>document.querySelector(s);
 const list=$('#list'),search=$('#search'),filters=$('#filters'),cats=$('#cats'),pager=$('#pager');
-fetch('/api/articles.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
+fetch('/api/articles.json?v=20260621-2',{cache:'no-store'}).then(r=>r.json()).then(d=>{
   state.notes=(d.notes||d.articles||[]).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||''));
   $('#stat-count').textContent=state.notes.length+' notes';
   $('#stat-updated').textContent='updated '+(d.updated||'');
