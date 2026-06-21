@@ -1,7 +1,26 @@
 {
-  "site": "Ideas",
+  "site": "SYD Lazarus Pit",
   "updated": "2026-06-21",
   "notes": [
+    {
+      "slug": "world-vibe-gtm-studio-first-vs-cohub-first",
+      "title": "Studio First vs Cohub First：Fantasy World Vibe 的两种 GTM 路线",
+      "date": "2026-06-21",
+      "category": "reads",
+      "tags": [
+        "GTM",
+        "Studio",
+        "Cohub",
+        "world building",
+        "interactive story",
+        "Roleplay"
+      ],
+      "summary": "围绕同一个长期心智 vibe building based on fantasy world，对比两种官网叙事入口：先把世界整理成体系，还是先把幻想灵感做成可玩故事。",
+      "readMin": 6,
+      "url": "/note.html?slug=world-vibe-gtm-studio-first-vs-cohub-first",
+      "source_url": "https://public.cohub.run/s/cc8750a1-14aa-403b-9cfe-c86717dd9fb0/world-vibe-gtm-report/index.html",
+      "source_title": "Studio First vs Cohub First — GTM 倾向方案对比"
+    },
     {
       "slug": "hello-world",
       "title": "我的第一条想法",
