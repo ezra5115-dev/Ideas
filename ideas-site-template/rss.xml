@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>Ideas</title>
+<link>https://syd-idea.pages.dev/</link>
+<description>Personal idea archive</description>
+<lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate>
+<item>
+<title><![CDATA[我的第一条想法]]></title>
+<link>https://syd-idea.pages.dev/note.html?slug=hello-world</link>
+<guid isPermaLink="true">https://syd-idea.pages.dev/note.html?slug=hello-world</guid>
+<pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+<category>notes</category>
+<description><![CDATA[这是网站上线后的第一条示例笔记。以后想法发给 Agent，由 Agent 整理后同步到这里。]]></description>
+</item>
+<item>
+<title><![CDATA[Studio 不是生成器，而是长期创作工作台]]></title>
+<link>https://syd-idea.pages.dev/note.html?slug=studio-as-long-term-workbench</link>
+<guid isPermaLink="true">https://syd-idea.pages.dev/note.html?slug=studio-as-long-term-workbench</guid>
+<pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+<category>studio</category>
+<description><![CDATA[用户真正需要的不是一次性生成，而是一个能记住偏好、维护一致性、让世界观持续生长的创作工作台。]]></description>
+</item>
+</channel></rss>
