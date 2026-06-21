@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Note — Ideas</title>
-<meta name="description" content="Ideas — 个人想法仓库的文章页。" />
+<title>Note — SYD Lazarus Pit</title>
+<meta name="description" content="SYD Lazarus Pit" />
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
@@ -66,7 +66,7 @@ article hr{border:0;border-top:1px solid var(--border);margin:34px 0}
   <div class="tab-content" id="tab-source"></div>
   <div class="tab-content" id="tab-notes"></div>
   <div class="footer">
-    <a href="/">Ideas</a>
+    <a href="/">SYD Lazarus Pit</a>
     <a href="/api/articles.json">JSON</a>
     <a href="/llms.txt">llms.txt</a>
     <a href="/llms-full.txt">llms-full.txt</a>
@@ -79,7 +79,7 @@ const sections={brief:document.getElementById('tab-brief'),full:document.getElem
 
 fetch('/content/notes/'+slug+'.md',{cache:'no-store'}).then(r=>{if(!r.ok)throw 0;return r.text()}).then(txt=>{
   const parsed=parse(txt); const fm=parsed.fm; const body=parsed.body;
-  document.title=(fm.title||slug)+' — Ideas';
+  document.title=(fm.title||slug)+' — SYD Lazarus Pit';
   const tags=(fm.tags||[]).map(t=>'<span class="tag">'+esc(t)+'</span>').join('');
   head.innerHTML=
     '<div class="eyebrow">'+esc(labelCat(fm.category||'notes'))+'</div>'+
