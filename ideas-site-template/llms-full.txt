@@ -1,0 +1,87 @@
+# Ideas — full content snapshot (2026-06-21)
+
+All notes concatenated, latest first. Designed for LLM ingestion.
+
+---
+title: 我的第一条想法
+date: 2026-06-20
+category: notes
+tags: 开始, 想法仓库
+summary: 这是网站上线后的第一条示例笔记。以后想法发给 Agent，由 Agent 整理后同步到这里。
+url: https://syd-idea.pages.dev/note.html?slug=hello-world
+---
+
+## {brief}
+
+- 这个站是个人想法仓库，不是博客，也不是发布平台。
+- 内容由 Agent 整理后同步到 GitHub，Cloudflare Pages 自动部署。
+- 5 类内容：碎片、Studio、世界观、阅读、Prompt。
+
+## {full}
+
+# 我的第一条想法
+
+这是一个示例页面。
+
+以后流程：
+
+1. 在 Cohub 把想法发给 Agent。
+2. Agent 整理成 Markdown。
+3. Agent 写入 GitHub 仓库。
+4. Cloudflare Pages 自动发布。
+5. 网站自动更新。
+
+这个站可以慢慢长成：
+
+- 想法仓库
+- Studio 产品日志
+- 世界观档案
+- 阅读笔记库
+- Prompt 实验记录
+
+---
+title: Studio 不是生成器，而是长期创作工作台
+date: 2026-06-20
+category: studio
+tags: Studio, AI产品, 世界观, 长期记忆
+summary: 用户真正需要的不是一次性生成，而是一个能记住偏好、维护一致性、让世界观持续生长的创作工作台。
+url: https://syd-idea.pages.dev/note.html?slug=studio-as-long-term-workbench
+---
+
+## {brief}
+
+- 普通生成器解决“给我一个东西”。
+- Studio 要解决“它越来越懂我”。
+- 关键能力：记忆、上下文、一致性、惊喜感。
+- 沉淀比生成更值钱。
+
+## {full}
+
+# Studio 不是生成器，而是长期创作工作台
+
+今天的关键判断：
+
+用户真正需要的，不是一个“帮我生成东西”的工具，而是一个能够长期陪伴创作的工作台。
+
+普通生成器解决的是：
+
+- 给我一张图
+- 给我一段设定
+- 给我一个角色
+- 给我一个 Prompt
+
+Studio 要解决的是：
+
+- 它记得我之前想要什么
+- 它知道我的世界观发展到哪里
+- 它理解我的审美偏好
+- 它能维护角色一致性
+- 它能把碎片想法慢慢整理成长期项目
+
+> 一次性工具给结果，Studio 养上下文。
+
+让用户持续回来的不是惊喜感，而是：
+
+> 我感觉这个东西越来越懂我。
+
+这就是 Studio 的长期价值。
