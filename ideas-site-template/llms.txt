@@ -1,27 +1,42 @@
 # Ideas
 
-> Personal idea archive. Human-readable and LLM-readable notes.
+> AI-curated personal idea archive. Human + LLM readable.
 
 ## How to use
 
-- Browse the site homepage for public notes.
+- Browse the homepage for the catalog.
+- Each article page has tabs: brief / full / source / mine.
 - Structured data: /api/articles.json
-- Markdown notes live under /content/notes/
+- Full content for LLMs: /llms-full.txt
+
+## Stats
+
+- Updated: 2026-06-21
+- Total notes: 2
+
+## Categories
+
+- notes (碎片想法)
+- studio (Studio 产品思考)
+- worlds (世界观档案)
+- reads (阅读摘录，带原文)
+- prompts (Prompt 实验)
+- logs (项目日志)
 
 ## Notes
-
-### Studio 不是生成器，而是长期创作工作台
-
-- Date: 2026-06-20
-- Category: studio
-- Tags: Studio, AI产品, 世界观, 长期记忆
-- Summary: Studio 的核心不是一次性生成内容，而是持续理解用户、记录上下文，并让世界观、角色和创作流程长期生长。
-- URL: https://syd-idea.pages.dev/note.html?slug=studio-as-long-term-workbench
 
 ### 我的第一条想法
 
 - Date: 2026-06-20
 - Category: notes
 - Tags: 开始, 想法仓库
-- Summary: 这是网站上线后的第一条示例笔记。以后你可以把想法发给 Agent，由 Agent 整理后同步到这里。
+- Summary: 这是网站上线后的第一条示例笔记。以后想法发给 Agent，由 Agent 整理后同步到这里。
 - URL: https://syd-idea.pages.dev/note.html?slug=hello-world
+
+### Studio 不是生成器，而是长期创作工作台
+
+- Date: 2026-06-20
+- Category: studio
+- Tags: Studio, AI产品, 世界观, 长期记忆
+- Summary: 用户真正需要的不是一次性生成，而是一个能记住偏好、维护一致性、让世界观持续生长的创作工作台。
+- URL: https://syd-idea.pages.dev/note.html?slug=studio-as-long-term-workbench
