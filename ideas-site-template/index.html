@@ -1,38 +1,210 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ideas — 想法仓库</title>
-  <meta name="description" content="一个由 Agent 整理和同步的个人想法仓库。" />
-  <link rel="alternate" type="application/json" href="/api/articles.json" />
-  <link rel="alternate" type="text/plain" href="/llms.txt" />
-  <style>
-    :root{--bg:#faf9f6;--card:#fff;--text:#181818;--muted:#75716c;--line:#e8e2da;--accent:#b7794c;--soft:#f3ebe3;--shadow:0 8px 30px rgba(20,15,10,.06);font-family:Inter,-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif} @media(prefers-color-scheme:dark){:root{--bg:#141312;--card:#1e1c1a;--text:#eee8df;--muted:#9d958c;--line:#302b26;--accent:#d59a6f;--soft:#2a221d;--shadow:none}}
-    *{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at 20% 0%,var(--soft),transparent 32%),var(--bg);color:var(--text);line-height:1.7} .wrap{max-width:860px;margin:0 auto;padding:64px 22px} header{margin-bottom:36px}.eyebrow{color:var(--accent);font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase} h1{font-size:48px;line-height:1.08;margin:10px 0 12px;letter-spacing:-.04em}.desc{font-size:18px;color:var(--muted);max-width:680px}.toolbar{display:flex;gap:12px;flex-wrap:wrap;margin:30px 0}.search{flex:1;min-width:220px;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:var(--card);color:var(--text);font-size:15px}.tag{border:1px solid var(--line);background:var(--card);color:var(--muted);padding:10px 12px;border-radius:999px;cursor:pointer}.tag.active{background:var(--accent);color:#fff;border-color:var(--accent)}.grid{display:grid;gap:16px}.card{display:block;text-decoration:none;color:inherit;background:color-mix(in srgb,var(--card) 92%,transparent);border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:var(--shadow);transition:.2s}.card:hover{transform:translateY(-2px);border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}.meta{display:flex;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:13px}.card h2{font-size:24px;margin:8px 0 8px;letter-spacing:-.02em}.summary{color:var(--muted);margin:0}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.chip{font-size:12px;color:var(--accent);background:var(--soft);padding:3px 9px;border-radius:999px}footer{margin-top:46px;color:var(--muted);font-size:13px}.empty{color:var(--muted);padding:30px;border:1px dashed var(--line);border-radius:18px}
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ideas — 想法仓库</title>
+<meta name="description" content="一个由 Agent 整理和同步的个人想法仓库。碎片想法、Studio 产品思考、世界观档案、阅读摘录、Prompt 实验。" />
+<meta property="og:title" content="Ideas — 想法仓库" />
+<meta property="og:description" content="由 Agent 整理和同步的个人想法仓库。" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://syd-idea.pages.dev/" />
+<link rel="canonical" href="https://syd-idea.pages.dev/" />
+<link rel="alternate" type="application/json" href="/api/articles.json" />
+<link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-readable catalog" />
+<link rel="alternate" type="text/plain" href="/llms-full.txt" title="LLM-readable full content" />
+<link rel="alternate" type="application/rss+xml" href="/rss.xml" title="RSS" />
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#FAFAF8;--bg-card:#FFFFFF;--bg-soft:#f4ece3;--text:#1a1a1a;--text-secondary:#6b6b6b;--text-tertiary:#999;
+  --accent:#b7794c;--accent-soft:#f0e0d0;--border:#e8e2da;
+  --shadow:0 1px 3px rgba(0,0,0,.04),0 4px 12px rgba(0,0,0,.03);
+  --shadow-hover:0 2px 8px rgba(0,0,0,.06),0 8px 24px rgba(0,0,0,.06);
+  --radius:14px;--max-w:880px;
+  --serif:'Noto Serif SC','Source Han Serif SC','Songti SC',Georgia,serif;
+  --sans:'Inter',-apple-system,BlinkMacSystemFont,'PingFang SC','Helvetica Neue',sans-serif;
+}
+@media (prefers-color-scheme:dark){:root{--bg:#141413;--bg-card:#1e1e1c;--bg-soft:#27211d;--text:#e8e4df;--text-secondary:#9a9590;--text-tertiary:#6b6560;--accent:#d4956a;--accent-soft:#2a2220;--border:#2a2825;--shadow:0 1px 3px rgba(0,0,0,.25),0 4px 12px rgba(0,0,0,.18);--shadow-hover:0 2px 8px rgba(0,0,0,.32),0 8px 24px rgba(0,0,0,.22)}}
+html{font-size:16px;-webkit-font-smoothing:antialiased}
+body{font-family:var(--sans);background:radial-gradient(circle at 18% -10%,var(--bg-soft),transparent 30%),var(--bg);color:var(--text);line-height:1.6;min-height:100vh;padding:0 20px}
+.wrap{max-width:var(--max-w);margin:0 auto}
+header.hero{padding:64px 0 28px}
+.eyebrow{color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+h1{font-size:44px;line-height:1.08;letter-spacing:-.035em;margin:10px 0 14px}
+.tagline{color:var(--text-secondary);font-size:17px;max-width:660px}
+.meta-row{display:flex;gap:14px;margin-top:16px;color:var(--text-tertiary);font-size:13px;flex-wrap:wrap}
+.meta-row a{color:var(--text-tertiary);text-decoration:none;border-bottom:1px dashed var(--border)}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:26px 0 18px}
+.search{flex:1;min-width:220px;padding:11px 14px;border:1px solid var(--border);border-radius:12px;background:var(--bg-card);color:var(--text);font-size:14px;font-family:var(--sans)}
+.search:focus{outline:none;border-color:var(--accent)}
+.view-toggles{display:inline-flex;border:1px solid var(--border);border-radius:12px;overflow:hidden;background:var(--bg-card)}
+.view-btn{padding:9px 14px;border:0;background:transparent;color:var(--text-secondary);cursor:pointer;font-size:13px}
+.view-btn.active{background:var(--accent);color:#fff}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.pill{padding:7px 13px;border:1px solid var(--border);background:var(--bg-card);color:var(--text-secondary);border-radius:999px;font-size:13px;cursor:pointer;transition:.18s}
+.pill:hover{color:var(--text)}
+.pill.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.cat-row{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 22px}
+.cat{padding:5px 10px;border-radius:8px;font-size:12px;cursor:pointer;color:var(--text-secondary);border:1px dashed var(--border)}
+.cat.active{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
+.month-group{margin-bottom:30px}
+.month-header{display:flex;align-items:baseline;gap:10px;padding:8px 0;border:0;background:transparent;color:var(--text);cursor:pointer;width:100%;text-align:left;font-family:var(--serif)}
+.month-header h2{font-size:22px;letter-spacing:-.02em;font-weight:600}
+.month-header .mcount{color:var(--text-tertiary);font-size:13px;font-family:var(--sans)}
+.month-header .chev{margin-left:auto;color:var(--text-tertiary);transition:.2s}
+.month-header.collapsed .chev{transform:rotate(-90deg)}
+.month-items{display:grid;gap:14px;margin-top:14px}
+.month-items.collapsed{display:none}
+body.view-card .month-items{grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.card{display:block;text-decoration:none;color:inherit;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px 22px;box-shadow:var(--shadow);transition:.18s}
+.card:hover{transform:translateY(-2px);border-color:color-mix(in srgb,var(--accent) 45%,var(--border));box-shadow:var(--shadow-hover)}
+.card .meta{display:flex;gap:8px;flex-wrap:wrap;color:var(--text-tertiary);font-size:12px;align-items:center}
+.card .meta .dot{width:4px;height:4px;border-radius:50%;background:var(--text-tertiary);display:inline-block}
+.card .category{color:var(--accent);font-weight:600;font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+.card h3{font-family:var(--serif);font-size:21px;line-height:1.3;letter-spacing:-.015em;margin:8px 0 8px;font-weight:600}
+.card .tldr{color:var(--text-secondary);font-size:14.5px;line-height:1.65;margin:0 0 12px}
+.card .topics{display:flex;gap:6px;flex-wrap:wrap}
+.card .topic{font-size:11px;color:var(--text-secondary);background:var(--bg-soft);padding:3px 9px;border-radius:999px}
+.empty{padding:32px;color:var(--text-tertiary);text-align:center;border:1px dashed var(--border);border-radius:var(--radius)}
+.pagination{display:flex;gap:6px;justify-content:center;margin:30px 0 60px}
+.pagination button{padding:7px 12px;border:1px solid var(--border);background:var(--bg-card);color:var(--text-secondary);border-radius:8px;cursor:pointer;font-size:13px}
+.pagination button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.pagination button:disabled{opacity:.4;cursor:not-allowed}
+footer{padding:40px 0 60px;color:var(--text-tertiary);font-size:13px;display:flex;gap:14px;flex-wrap:wrap;border-top:1px solid var(--border);margin-top:20px}
+footer a{color:var(--text-tertiary)}
+</style>
 </head>
-<body>
-  <main class="wrap">
-    <header>
-      <div class="eyebrow">Personal Archive</div>
-      <h1>Ideas</h1>
-      <p class="desc">一个由 Agent 整理和同步的个人想法仓库。这里可以放碎片想法、Studio 产品日志、世界观档案、阅读笔记和 Prompt 实验。</p>
-    </header>
-    <section class="toolbar">
-      <input id="search" class="search" placeholder="搜索标题、摘要、标签……" />
-      <button class="tag active" data-tag="all">全部</button>
-    </section>
-    <section id="list" class="grid"></section>
-    <footer>Structured data: <a href="/api/articles.json">/api/articles.json</a> · LLM catalog: <a href="/llms.txt">/llms.txt</a></footer>
-  </main>
+<body class="view-list">
+<div class="wrap">
+  <header class="hero">
+    <div class="eyebrow">Personal Archive</div>
+    <h1>Ideas</h1>
+    <p class="tagline">由 Agent 整理和同步的个人想法仓库。碎片想法、Studio 产品思考、世界观档案、阅读摘录、Prompt 实验。</p>
+    <div class="meta-row">
+      <span id="stat-count">… articles</span>
+      <span>·</span>
+      <span id="stat-updated">…</span>
+      <span>·</span>
+      <a href="/api/articles.json">JSON</a>
+      <a href="/llms.txt">llms.txt</a>
+      <a href="/llms-full.txt">llms-full.txt</a>
+      <a href="/rss.xml">RSS</a>
+    </div>
+  </header>
+
+  <section class="toolbar">
+    <input id="search" class="search" placeholder="搜索标题、摘要、标签……" />
+    <div class="view-toggles">
+      <button class="view-btn active" data-view="list">列表</button>
+      <button class="view-btn" data-view="card">卡片</button>
+    </div>
+  </section>
+  <div class="cat-row" id="cats"></div>
+  <div class="filters" id="filters"></div>
+  <main id="list"></main>
+  <nav class="pagination" id="pager"></nav>
+  <footer>
+    <span>Ideas</span>
+    <a href="/api/articles.json">articles.json</a>
+    <a href="/llms.txt">llms.txt</a>
+    <a href="/llms-full.txt">llms-full.txt</a>
+    <a href="/rss.xml">RSS</a>
+    <a href="/sitemap.xml">sitemap</a>
+  </footer>
+</div>
 <script>
-let notes=[], active='all';
-const list=document.querySelector('#list'), search=document.querySelector('#search'), toolbar=document.querySelector('.toolbar');
-fetch('/content/notes.json').then(r=>r.json()).then(data=>{notes=data.notes||[]; buildTags(); render();}).catch(()=>{list.innerHTML='<div class="empty">还没有内容，或 content/notes.json 读取失败。</div>'});
-function buildTags(){const tags=[...new Set(notes.flatMap(n=>n.tags||[]))]; tags.forEach(t=>{const b=document.createElement('button');b.className='tag';b.dataset.tag=t;b.textContent=t;toolbar.appendChild(b)}); toolbar.addEventListener('click',e=>{if(!e.target.matches('.tag'))return; active=e.target.dataset.tag; document.querySelectorAll('.tag').forEach(x=>x.classList.toggle('active',x.dataset.tag===active)); render();});}
-search.addEventListener('input',render);
-function render(){const q=search.value.trim().toLowerCase(); const items=notes.filter(n=>(active==='all'||(n.tags||[]).includes(active)) && JSON.stringify(n).toLowerCase().includes(q)); list.innerHTML=items.length?items.map(n=>`<a class="card" href="${n.url}"><div class="meta"><span>${n.date||''}</span><span>·</span><span>${n.category||'note'}</span></div><h2>${n.title}</h2><p class="summary">${n.summary||''}</p><div class="chips">${(n.tags||[]).map(t=>`<span class="chip">${t}</span>`).join('')}</div></a>`).join(''):'<div class="empty">没有匹配内容。</div>';}
+const PER_PAGE=20;
+const state={notes:[],q:'',tag:'all',cat:'all',view:'list',page:1};
+const $=s=>document.querySelector(s);
+const list=$('#list'),search=$('#search'),filters=$('#filters'),cats=$('#cats'),pager=$('#pager');
+fetch('/api/articles.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
+  state.notes=(d.notes||d.articles||[]).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+  $('#stat-count').textContent=state.notes.length+' notes';
+  $('#stat-updated').textContent='updated '+(d.updated||'');
+  buildCats();buildTags();render();
+}).catch(()=>list.innerHTML='<div class="empty">读取 /api/articles.json 失败</div>');
+
+function buildCats(){
+  const order=['all','notes','studio','worlds','reads','prompts','logs'];
+  const present=new Set(state.notes.map(n=>n.category||'notes'));
+  cats.innerHTML=order.filter(c=>c==='all'||present.has(c)).map(c=>`<span class="cat ${c===state.cat?'active':''}" data-cat="${c}">${labelCat(c)}</span>`).join('');
+  cats.onclick=e=>{const t=e.target.closest('.cat');if(!t)return;state.cat=t.dataset.cat;state.page=1;buildCats();render()};
+}
+function labelCat(c){return {all:'全部',notes:'碎片',studio:'Studio',worlds:'世界观',reads:'阅读',prompts:'Prompt',logs:'日志'}[c]||c}
+function buildTags(){
+  const tags=[...new Set(state.notes.flatMap(n=>n.tags||n.topics||[]))].sort();
+  filters.innerHTML=['all',...tags].map(t=>`<span class="pill ${t===state.tag?'active':''}" data-tag="${t}">${t==='all'?'全部标签':t}</span>`).join('');
+  filters.onclick=e=>{const t=e.target.closest('.pill');if(!t)return;state.tag=t.dataset.tag;state.page=1;buildTags();render()};
+}
+search.addEventListener('input',()=>{state.q=search.value.trim().toLowerCase();state.page=1;render()});
+document.querySelectorAll('.view-btn').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('.view-btn').forEach(x=>x.classList.toggle('active',x===b));
+  state.view=b.dataset.view;document.body.classList.toggle('view-card',state.view==='card');document.body.classList.toggle('view-list',state.view==='list');render();
+}));
+function filtered(){
+  return state.notes.filter(n=>{
+    if(state.cat!=='all'&&(n.category||'notes')!==state.cat)return false;
+    const tags=(n.tags||n.topics||[]);
+    if(state.tag!=='all'&&!tags.includes(state.tag))return false;
+    if(state.q&&!JSON.stringify(n).toLowerCase().includes(state.q))return false;
+    return true;
+  });
+}
+function groupByMonth(items){
+  const map=new Map();
+  items.forEach(n=>{
+    const m=(n.date||'').slice(0,7)||'未标日期';
+    if(!map.has(m))map.set(m,[]);map.get(m).push(n);
+  });
+  return [...map.entries()];
+}
+function render(){
+  const items=filtered();
+  const total=items.length;
+  const pages=Math.max(1,Math.ceil(total/PER_PAGE));
+  if(state.page>pages)state.page=pages;
+  const start=(state.page-1)*PER_PAGE;
+  const slice=items.slice(start,start+PER_PAGE);
+  if(!slice.length){list.innerHTML='<div class="empty">没有匹配内容。</div>';pager.innerHTML='';return}
+  const groups=groupByMonth(slice);
+  list.innerHTML=groups.map(([m,arr])=>`
+    <section class="month-group">
+      <button class="month-header" data-month="${m}">
+        <h2>${m}</h2><span class="mcount">${arr.length}</span><span class="chev">▾</span>
+      </button>
+      <div class="month-items" data-month-items="${m}">
+        ${arr.map(card).join('')}
+      </div>
+    </section>`).join('');
+  list.querySelectorAll('.month-header').forEach(h=>h.addEventListener('click',()=>{
+    const m=h.dataset.month;
+    h.classList.toggle('collapsed');
+    list.querySelector(`[data-month-items="${m}"]`).classList.toggle('collapsed');
+  }));
+  renderPager(pages);
+}
+function card(n){
+  const tags=(n.tags||n.topics||[]).slice(0,4);
+  const read=n.readMin?` · ${n.readMin} min read`:'';
+  return `<a class="card" href="${n.url}">
+    <div class="meta"><span>${n.date||''}</span><span class="dot"></span><span class="category">${labelCat(n.category||'notes')}</span>${read?`<span class="dot"></span><span>${n.readMin} min</span>`:''}</div>
+    <h3>${escapeHtml(n.title||'')}</h3>
+    <p class="tldr">${escapeHtml(n.summary||n.tldr||'')}</p>
+    <div class="topics">${tags.map(t=>`<span class="topic">${escapeHtml(t)}</span>`).join('')}</div>
+  </a>`;
+}
+function renderPager(pages){
+  if(pages<=1){pager.innerHTML='';return}
+  const p=state.page;
+  let html='';
+  html+=`<button ${p===1?'disabled':''} data-p="${p-1}">‹</button>`;
+  for(let i=1;i<=pages;i++) html+=`<button class="${i===p?'active':''}" data-p="${i}">${i}</button>`;
+  html+=`<button ${p===pages?'disabled':''} data-p="${p+1}">›</button>`;
+  pager.innerHTML=html;
+  pager.onclick=e=>{const b=e.target.closest('button[data-p]');if(!b)return;state.page=Number(b.dataset.p);render();window.scrollTo({top:0,behavior:'smooth'})};
+}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 </script>
 </body>
 </html>
