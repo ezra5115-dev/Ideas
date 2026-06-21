@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
-<title>Ideas</title>
+<title>SYD Lazarus Pit</title>
 <link>https://syd-idea.pages.dev/</link>
 <description>Personal idea archive</description>
 <lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate>
+<item>
+<title><![CDATA[Studio First vs Cohub First：Fantasy World Vibe 的两种 GTM 路线]]></title>
+<link>https://syd-idea.pages.dev/note.html?slug=world-vibe-gtm-studio-first-vs-cohub-first</link>
+<guid isPermaLink="true">https://syd-idea.pages.dev/note.html?slug=world-vibe-gtm-studio-first-vs-cohub-first</guid>
+<pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+<category>reads</category>
+<description><![CDATA[围绕同一个长期心智 vibe building based on fantasy world，对比两种官网叙事入口：先把世界整理成体系，还是先把幻想灵感做成可玩故事。]]></description>
+</item>
 <item>
 <title><![CDATA[我的第一条想法]]></title>
 <link>https://syd-idea.pages.dev/note.html?slug=hello-world</link>
