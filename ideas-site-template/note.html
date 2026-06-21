@@ -1,14 +1,167 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Note — Ideas</title><script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <style>
-    :root{--bg:#faf9f6;--text:#1b1b1b;--muted:#77716b;--line:#e9e1d8;--accent:#b7794c;--quote:#f4ece3;font-family:"LXGW WenKai","Noto Serif SC",Georgia,serif}@media(prefers-color-scheme:dark){:root{--bg:#141312;--text:#eee8df;--muted:#9c948b;--line:#302b26;--accent:#d59a6f;--quote:#211d19}}body{margin:0;background:var(--bg);color:var(--text);line-height:1.9}.wrap{max-width:740px;margin:0 auto;padding:42px 22px 80px}.back{font-family:Inter,-apple-system,sans-serif;color:var(--accent);text-decoration:none;font-size:14px}.meta{font-family:Inter,-apple-system,sans-serif;color:var(--muted);font-size:14px;margin-top:30px}h1{font-size:42px;line-height:1.18;letter-spacing:-.03em;margin:10px 0 18px}article{font-size:18px}article h1{font-size:34px}article h2{font-size:26px;margin-top:38px}article p{margin:1em 0}article a{color:var(--accent)}article blockquote{border-left:3px solid var(--accent);background:var(--quote);margin:24px 0;padding:12px 18px;color:var(--muted)}code{background:var(--quote);padding:2px 5px;border-radius:5px}pre{background:var(--quote);padding:16px;border-radius:14px;overflow:auto}.tags{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 34px}.tag{font-family:Inter,-apple-system,sans-serif;font-size:12px;color:var(--accent);background:var(--quote);padding:3px 9px;border-radius:999px}.err{color:var(--muted);border:1px dashed var(--line);border-radius:16px;padding:24px}</style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Note — Ideas</title>
+<meta name="description" content="Ideas — 个人想法仓库的文章页。" />
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#FAFAF8;--bg-card:#FFFFFF;--bg-soft:#f4ece3;--bg-quote:#f5ede3;--text:#1b1b1b;--text-secondary:#77716b;--text-tertiary:#a3a09b;
+  --accent:#b7794c;--accent-soft:#f0e0d0;--border:#e8e2da;
+  --serif:'LXGW WenKai','Noto Serif SC','Source Han Serif SC','Songti SC',Georgia,serif;
+  --sans:'Inter',-apple-system,BlinkMacSystemFont,'PingFang SC','Helvetica Neue',sans-serif;
+  --max-w:720px;
+}
+@media (prefers-color-scheme:dark){:root{--bg:#141313;--bg-card:#1e1c1a;--bg-soft:#27211d;--bg-quote:#211d19;--text:#eee8df;--text-secondary:#9d958c;--text-tertiary:#6b6560;--accent:#d59a6f;--accent-soft:#2a2220;--border:#2c2a26}}
+html{font-size:17px;-webkit-font-smoothing:antialiased;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);line-height:1.9;font-family:var(--serif)}
+.progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:50;transition:width .12s linear}
+.wrap{max-width:var(--max-w);margin:0 auto;padding:34px 20px 80px}
+.back{font-family:var(--sans);color:var(--accent);text-decoration:none;font-size:13.5px;letter-spacing:.04em}
+.header{margin:18px 0 26px}
+.eyebrow{font-family:var(--sans);color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;margin-bottom:8px}
+h1.title{font-size:40px;line-height:1.18;letter-spacing:-.03em;margin:8px 0 16px;font-weight:600}
+.meta{font-family:var(--sans);color:var(--text-tertiary);font-size:13px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 0}
+.tag{font-family:var(--sans);font-size:12px;color:var(--accent);background:var(--bg-soft);padding:3px 9px;border-radius:999px}
+.tldr-box{font-family:var(--sans);background:var(--bg-soft);border-left:3px solid var(--accent);padding:14px 18px;border-radius:10px;margin:18px 0 6px;color:var(--text-secondary);font-size:15px;line-height:1.7}
+.source{font-family:var(--sans);font-size:14px;margin:10px 0 0;color:var(--text-secondary)}
+.source a{color:var(--accent)}
+.tabs{display:flex;gap:4px;margin:30px 0 16px;border-bottom:1px solid var(--border);font-family:var(--sans)}
+.tab{padding:10px 14px;cursor:pointer;color:var(--text-secondary);font-size:14px;border-bottom:2px solid transparent;margin-bottom:-1px}
+.tab.active{color:var(--accent);border-color:var(--accent)}
+.tab-content{display:none}
+.tab-content.active{display:block}
+article{font-size:18px}
+article h1{font-size:30px;margin:34px 0 14px}
+article h2{font-size:24px;margin:30px 0 12px}
+article h3{font-size:20px;margin:24px 0 10px}
+article p{margin:1em 0}
+article ul,article ol{margin:1em 0 1em 1.2em}
+article li{margin:.3em 0}
+article a{color:var(--accent)}
+article blockquote{border-left:3px solid var(--accent);background:var(--bg-quote);margin:24px 0;padding:12px 18px;color:var(--text-secondary)}
+article code{background:var(--bg-quote);padding:2px 6px;border-radius:5px;font-size:.92em}
+article pre{background:var(--bg-quote);padding:16px;border-radius:12px;overflow:auto}
+article pre code{background:transparent;padding:0}
+article hr{border:0;border-top:1px solid var(--border);margin:34px 0}
+.note-mine{font-family:var(--sans);background:var(--bg-card);border:1px solid var(--border);border-radius:14px;padding:18px 20px;color:var(--text);font-size:15.5px;line-height:1.8}
+.note-mine h3{font-family:var(--sans);font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-bottom:8px;font-weight:700}
+.err{color:var(--text-tertiary);border:1px dashed var(--border);border-radius:14px;padding:24px;font-family:var(--sans);font-size:14px}
+.footer{margin-top:60px;padding-top:18px;border-top:1px solid var(--border);font-family:var(--sans);font-size:13px;color:var(--text-tertiary);display:flex;gap:14px;flex-wrap:wrap}
+.footer a{color:var(--text-tertiary)}
+</style>
 </head>
-<body><main class="wrap"><a class="back" href="/">← 返回首页</a><div id="head"></div><article id="content"></article></main>
+<body>
+<div class="progress" id="progress"></div>
+<main class="wrap">
+  <a class="back" href="/">← 返回首页</a>
+  <div class="header" id="head"></div>
+  <div class="tabs" id="tabs"></div>
+  <div class="tab-content active" id="tab-brief"></div>
+  <div class="tab-content" id="tab-full"></div>
+  <div class="tab-content" id="tab-source"></div>
+  <div class="tab-content" id="tab-notes"></div>
+  <div class="footer">
+    <a href="/">Ideas</a>
+    <a href="/api/articles.json">JSON</a>
+    <a href="/llms.txt">llms.txt</a>
+    <a href="/llms-full.txt">llms-full.txt</a>
+  </div>
+</main>
 <script>
 const slug=new URLSearchParams(location.search).get('slug')||'hello-world';
-fetch(`/content/notes/${slug}.md`).then(r=>{if(!r.ok)throw new Error('not found');return r.text()}).then(txt=>{const {fm,body}=parse(txt); document.title=(fm.title||slug)+' — Ideas'; document.querySelector('#head').innerHTML=`<div class="meta">${fm.date||''} · ${fm.category||'note'}</div><h1>${fm.title||slug}</h1><div class="tags">${(fm.tags||[]).map(t=>`<span class="tag">${t}</span>`).join('')}</div>`; document.querySelector('#content').innerHTML=marked.parse(body);}).catch(()=>{document.querySelector('#content').innerHTML='<div class="err">没有找到这篇笔记。请检查 slug 和 Markdown 文件是否存在。</div>'});
-function parse(txt){let fm={},body=txt;if(txt.startsWith('---')){const end=txt.indexOf('\n---',3); if(end>-1){const raw=txt.slice(3,end).trim(); body=txt.slice(end+4).trim(); raw.split('\n').forEach(line=>{const i=line.indexOf(':'); if(i<0)return; const k=line.slice(0,i).trim(), v=line.slice(i+1).trim(); if(v.startsWith('[')){try{fm[k]=JSON.parse(v.replaceAll("'",'\"'))}catch{fm[k]=[]}} else fm[k]=v.replace(/^"|"$/g,'')});}}return{fm,body};}
-</script></body></html>
+const head=document.getElementById('head'),tabs=document.getElementById('tabs');
+const sections={brief:document.getElementById('tab-brief'),full:document.getElementById('tab-full'),source:document.getElementById('tab-source'),notes:document.getElementById('tab-notes')};
+
+fetch('/content/notes/'+slug+'.md',{cache:'no-store'}).then(r=>{if(!r.ok)throw 0;return r.text()}).then(txt=>{
+  const parsed=parse(txt); const fm=parsed.fm; const body=parsed.body;
+  document.title=(fm.title||slug)+' — Ideas';
+  const tags=(fm.tags||[]).map(t=>'<span class="tag">'+esc(t)+'</span>').join('');
+  head.innerHTML=
+    '<div class="eyebrow">'+esc(labelCat(fm.category||'notes'))+'</div>'+
+    '<h1 class="title">'+esc(fm.title||slug)+'</h1>'+
+    '<div class="meta"><span>'+esc(fm.date||'')+'</span>'+(fm.readMin?'<span>·</span><span>'+fm.readMin+' min read</span>':'')+'</div>'+
+    '<div class="tags">'+tags+'</div>'+
+    (fm.summary?'<div class="tldr-box">'+esc(fm.summary)+'</div>':'')+
+    (fm.source_url?'<div class="source">原文：<a href="'+esc(fm.source_url)+'" target="_blank" rel="noopener">'+esc(fm.source_title||fm.source_url)+'</a>'+(fm.source_author?' · '+esc(fm.source_author):'')+'</div>':'');
+
+  const sectionMap=splitSections(body);
+  const order=[
+    {key:'brief',label:'简报',html:sectionMap.brief||sectionMap.summary||''},
+    {key:'full',label:'整理稿',html:sectionMap.full||sectionMap.body||body},
+    {key:'source',label:'原文',html:sectionMap.source||(fm.source_url?'原文链接：['+fm.source_url+']('+fm.source_url+')\n\n'+(sectionMap.source_text||''):'')},
+    {key:'notes',label:'我的评论',html:sectionMap.mine||sectionMap.comment||''}
+  ].filter(t=>t.html&&t.html.trim());
+
+  if(order.length<=1){
+    tabs.style.display='none';
+    sections.brief.innerHTML='<article>'+marked.parse(sectionMap.body||body)+'</article>';
+  } else {
+    tabs.innerHTML=order.map((t,i)=>'<div class="tab '+(i===0?'active':'')+'" data-tab="'+t.key+'">'+t.label+'</div>').join('');
+    order.forEach(t=>{
+      const html=marked.parse(t.html);
+      sections[t.key].innerHTML=t.key==='notes'?'<div class="note-mine"><h3>我的评论</h3>'+html+'</div>':'<article>'+html+'</article>';
+    });
+    Object.keys(sections).forEach(k=>sections[k].classList.toggle('active',k===order[0].key));
+    tabs.addEventListener('click',function(e){
+      const t=e.target.closest('.tab');if(!t)return;
+      tabs.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===t));
+      Object.keys(sections).forEach(k=>sections[k].classList.toggle('active',k===t.dataset.tab));
+      window.scrollTo({top:0,behavior:'smooth'});
+    });
+  }
+  setupProgress();
+}).catch(()=>{sections.brief.innerHTML='<div class="err">没找到这篇笔记。</div>'});
+
+function parse(txt){
+  let fm={},body=txt;
+  if(txt.startsWith('---')){
+    const end=txt.indexOf('\n---',3);
+    if(end>-1){
+      const raw=txt.slice(3,end).trim();body=txt.slice(end+4).trim();
+      raw.split('\n').forEach(line=>{
+        const i=line.indexOf(':');if(i<0)return;
+        const k=line.slice(0,i).trim();let v=line.slice(i+1).trim();
+        if(v.startsWith('[')){
+          try{fm[k]=JSON.parse(v.replaceAll("'",'"'))}
+          catch(e){fm[k]=v.replace(/^\[|\]$/g,'').split(',').map(s=>s.trim().replace(/^"|"$/g,'')).filter(Boolean)}
+        } else fm[k]=v.replace(/^"|"$/g,'');
+      });
+    }
+  }
+  return {fm:fm,body:body};
+}
+
+function splitSections(body){
+  const map={body:body};
+  const headRe=/^##\s+\{([a-z_]+)\}\s*$/gm;
+  const hits=[]; let m;
+  while((m=headRe.exec(body))!==null){hits.push({key:m[1],start:m.index,end:m.index+m[0].length});}
+  if(!hits.length)return map;
+  for(let i=0;i<hits.length;i++){
+    const h=hits[i]; const next=hits[i+1]?hits[i+1].start:body.length;
+    map[h.key]=body.slice(h.end,next).trim();
+  }
+  return map;
+}
+
+function setupProgress(){
+  const bar=document.getElementById('progress');
+  const handler=()=>{
+    const doc=document.documentElement;
+    const top=doc.scrollTop||document.body.scrollTop;
+    const h=(doc.scrollHeight-doc.clientHeight)||1;
+    bar.style.width=Math.min(100,Math.max(0,top/h*100))+'%';
+  };
+  document.addEventListener('scroll',handler,{passive:true});handler();
+}
+
+function labelCat(c){return {notes:'碎片想法',studio:'Studio',worlds:'世界观',reads:'阅读摘录',prompts:'Prompt 实验',logs:'项目日志'}[c]||c}
+function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+</script>
+</body>
+</html>
