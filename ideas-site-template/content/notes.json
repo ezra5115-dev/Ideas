@@ -1,24 +1,34 @@
 {
   "site": "Ideas",
-  "updated": "2026-06-20",
+  "updated": "2026-06-21",
   "notes": [
-    {
-      "slug": "studio-as-long-term-workbench",
-      "title": "Studio 不是生成器，而是长期创作工作台",
-      "date": "2026-06-20",
-      "category": "studio",
-      "tags": ["Studio", "AI产品", "世界观", "长期记忆"],
-      "summary": "Studio 的核心不是一次性生成内容，而是持续理解用户、记录上下文，并让世界观、角色和创作流程长期生长。",
-      "url": "/note.html?slug=studio-as-long-term-workbench"
-    },
     {
       "slug": "hello-world",
       "title": "我的第一条想法",
       "date": "2026-06-20",
       "category": "notes",
-      "tags": ["开始", "想法仓库"],
-      "summary": "这是网站上线后的第一条示例笔记。以后你可以把想法发给 Agent，由 Agent 整理后同步到这里。",
+      "tags": [
+        "开始",
+        "想法仓库"
+      ],
+      "summary": "这是网站上线后的第一条示例笔记。以后想法发给 Agent，由 Agent 整理后同步到这里。",
+      "readMin": 1,
       "url": "/note.html?slug=hello-world"
+    },
+    {
+      "slug": "studio-as-long-term-workbench",
+      "title": "Studio 不是生成器，而是长期创作工作台",
+      "date": "2026-06-20",
+      "category": "studio",
+      "tags": [
+        "Studio",
+        "AI产品",
+        "世界观",
+        "长期记忆"
+      ],
+      "summary": "用户真正需要的不是一次性生成，而是一个能记住偏好、维护一致性、让世界观持续生长的创作工作台。",
+      "readMin": 4,
+      "url": "/note.html?slug=studio-as-long-term-workbench"
     }
   ]
 }
