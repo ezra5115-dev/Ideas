@@ -1,6 +1,168 @@
-# Ideas — full content snapshot (2026-06-21)
+# SYD Lazarus Pit — full content snapshot (2026-06-21)
 
-All notes concatenated, latest first. Designed for LLM ingestion.
+All notes concatenated, latest first.
+
+---
+title: Studio First vs Cohub First：Fantasy World Vibe 的两种 GTM 路线
+date: 2026-06-21
+category: reads
+tags: GTM, Studio, Cohub, world building, interactive story, Roleplay
+summary: 围绕同一个长期心智 vibe building based on fantasy world，对比两种官网叙事入口：先把世界整理成体系，还是先把幻想灵感做成可玩故事。
+source_url: https://public.cohub.run/s/cc8750a1-14aa-403b-9cfe-c86717dd9fb0/world-vibe-gtm-report/index.html
+url: https://syd-idea.pages.dev/note.html?slug=world-vibe-gtm-studio-first-vs-cohub-first
+---
+
+## {brief}
+
+- 长期心智不变：vibe building based on fantasy world，从 vibe → Living Page → interactive story / Roleplay / cinematic moment。
+- 共同承诺：创作者定义规则、角色张力、审美、氛围；AI 负责组织、展示、推演。
+- 第一优先人群是同人创作者，他们已经有熟悉的世界和角色；第二是从零搭建的原创创作者。
+- 核心作品形态固定为三种：interactive story、Roleplay、视频感片段。
+- 真正的分歧只在一个动作：用户是从「世界体系」进入，还是从「一个可玩的作品」进入。
+- A 路 Studio First：先把世界整理成 system，再生长出作品，更吃设定党与世界观 UP。
+- B 路 Cohub First：先做出一个能玩的故事，作品多了再升级为 Studio，更吃 Roleplay 与轻创作者。
+- Living World Page 是两条路线的共同资产，A 是起点，B 是终点。
+- Demo seed 同一份：演出前 30 分钟主角失踪，两个关系紧张的人被迫合作，其中一人知道真相。两条路线包装方式不同。
+
+## {full}
+
+# Studio First vs Cohub First
+
+这份报告把 fantasy world vibe 的 GTM 拆成两个入口去做 A/B 比较，但底层心智是统一的：
+
+> Start with your world's vibe. Turn it into playable experiences that keep growing.
+
+## 人群边界
+
+本轮先不扩散人群，集中在两类创作者：
+
+1. 已有世界 / 同人创作者：有熟悉的角色、关系和规则，想把已有世界做成 interactive story、Roleplay 和有视频感的片段。
+2. 原创创作者：愿意导入长设定、整理角色和规则，把原创世界变成可展示、可游玩的作品。
+
+模板、案例、demo 优先服务第一类，因为他们带着熟悉度进来，转化最快。
+
+## 真正的问题
+
+```
+用户更愿意从「体系」进入，还是从「作品」进入？
+```
+
+A 路：Studio First，先承诺世界可以被组织成可持续创作的 Studio。
+B 路：Cohub First，先承诺一个幻想灵感能马上做成可玩作品。
+
+两条路最终都走向同一个未来：幻想世界被整理、展示、游玩、继续生长。
+
+## A · Studio First
+
+承诺：Build a living studio for your fantasy world.
+
+用户路径：
+
+1. 输入世界设定、角色关系或长设定。
+2. Studio 整理成 world system：角色、地点、关系、规则、时间线。
+3. 发布 Living World Page：设定集 + 世界入口 + 作品 hub。
+4. 从世界体系生成 interactive story、Roleplay、cinematic moment。
+
+适合：
+
+- 世界观 UP
+- 原创作者
+- 设定党
+- 教学型创作者
+
+它解决的不是「我有灵感」，而是「我有世界，但散落各处」。
+
+## B · Cohub First
+
+承诺：Make a playable fantasy-world story from any idea.
+
+用户路径：
+
+1. 输入一个场景、冲突、角色张力或氛围关键词。
+2. 生成第一个 playable interactive story。
+3. 分享、继续下一章、换角色路线、生成 Roleplay。
+4. 当作品需要记忆和一致性时再开启 Studio mode。
+
+适合：
+
+- Roleplay 用户
+- 轻创作者
+- 想先看到作品反馈再决定是否继续投入的人
+
+它解决的是「我有一个想玩的瞬间，我想立刻看到结果」。
+
+## 关键差异
+
+| 维度 | A · Studio First | B · Cohub First |
+|---|---|---|
+| 第一印象 | 一个能承载幻想世界长期创作的 Studio | 一个能快速把幻想灵感做成可玩故事的工坊 |
+| 第一步 | 描述 / 导入世界、角色、规则 | 描述场景、冲突或氛围 |
+| 首个成功结果 | 世界体系 + Living World Page + 故事图纸 | 第一个 playable interactive story |
+| 产品承接 | World System → Living Page → Works | Playable Work → Continue → Studio |
+
+## Living World Page 是公共资产
+
+- A 路里它是核心输出，先整理世界再发布主页。
+- B 路里它是作品长大后的升级，多个故事和角色路线汇聚成世界入口。
+
+无论选哪条路，这个资产都会沉淀下来。
+
+## Demo 设计
+
+为了让对比纯净，Demo 用同一份 seed：
+
+> 公开演出前 30 分钟，主角突然失踪。两个关系紧张的人被迫合作，其中一人知道真正原因。
+
+四个层级保持一致：
+
+1. Playable Story：3 分钟可玩，3 个关键选择，2–4 个分支结局。
+2. Roleplay Hook：选择一个角色继续扮演，进入下一幕对话。
+3. Cinematic Moment：输出一个视频感名场面，含台词、镜头、视觉 prompt。
+4. World Memory：关系、秘密、演出地点、时间线进入 Living Page。
+
+两条路线包装同一素材，差异只在第一屏叙事：从世界开始，还是从场景开始。
+
+## {mine}
+
+读完最大的收获是它把一个 GTM 决策**剥到只剩一个动作**：
+
+> 用户的第一次成功，是看到「世界体系」，还是看到「一个作品」？
+
+这其实就是 Studio 和 Vibe 的老问题的市场化版本。
+
+我倾向 B 路作为外层入口，A 路作为内层承接：
+
+- 第一次进来的用户大概率没有「整理世界」的耐心，他要看到东西能玩。
+- 但他玩第二次、第三次时，作品记忆、角色一致性、关系网会自然变成需求。
+- 这时候 Studio mode 不再是「让我先填一堆设定」，而是「你已经有 5 个故事和 3 个角色了，要不要把它们沉淀成一个世界？」
+
+如果用 A 路做外层，门槛太高，转化会卡在第一屏的「我得想清楚整个世界」。
+
+但 A 路对**老创作者 / 设定党 / 已有 IP 的同人作者**有效，因为他们已经有世界，他们要的是工具承接，不是教育。
+
+所以更可能的真实方案不是二选一：
+
+```
+默认入口走 B（任何人都能立刻得到一个可玩故事）
+针对带世界来的人走 A（导入即可，不需要从零生成）
+两个入口共享同一个 Living World Page 资产
+```
+
+这样 fantasy world vibe 这层心智不会被 GTM 切碎。
+
+另一个观察：
+
+demo seed 选得很聪明。
+
+「演出前主角失踪 + 两个关系紧张的人被迫合作 + 一人知道真相」这个组合天然带：
+
+- 时间压力
+- 角色张力
+- 秘密机制
+- 多角色视角
+
+这四个要素几乎是 interactive story 的最小可玩单元。  
+可以把这个 seed 模板化，作为 Studio 内部「demo-grade story」标准。
 
 ---
 title: 我的第一条想法
