@@ -16,10 +16,30 @@
       ],
       "summary": "一条围绕泡泡玛特与 Z 世代消费、情绪价值和品牌叙事的视频，适合作为品牌观察样本保存。",
       "readMin": 25,
+      "url": "/note.html?slug=bilibili-papomart-z-generation-low-intensity-sugar",
       "source_url": "https://www.bilibili.com/video/BV1soVV6UE9q/",
       "source_title": "泡泡玛特是专门收割Z世代的低烈度糖精 | 理解泡泡玛特（上）",
-      "source_author": "老蒋巨靠谱",
-      "url": "/note.html?slug=bilibili-papomart-z-generation-low-intensity-sugar"
+      "source_author": "老蒋巨靠谱"
+    },
+    {
+      "slug": "popmart-z-generation-ip-psychology",
+      "title": "泡泡玛特与 Z 世代消费心理：从叙事型到投射型的 IP 范式转变",
+      "date": "2026-06-21",
+      "category": "reads",
+      "tags": [
+        "泡泡玛特",
+        "IP",
+        "消费心理",
+        "Z世代",
+        "多巴胺",
+        "内啡肽",
+        "投射型IP",
+        "叙事型IP"
+      ],
+      "summary": "泡泡玛特的本质是为现代人提供一个「可被占有的小他者」，用快反馈、低门槛的投射型 IP 绕过内容铺垫，直接建立身份标签。这与叙事型 IP（迪士尼、漫威）构成本质差异。",
+      "readMin": 5,
+      "url": "/note.html?slug=popmart-z-generation-ip-psychology",
+      "source_title": "泡泡玛特与 Z 世代消费心理深度探析"
     },
     {
       "slug": "world-vibe-gtm-studio-first-vs-cohub-first",
