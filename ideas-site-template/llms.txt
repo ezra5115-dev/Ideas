@@ -11,8 +11,8 @@
 
 ## Stats
 
-- Updated: 2026-06-21
-- Total notes: 3
+- Updated: 2026-06-22
+- Total notes: 4
 
 ## Categories
 
@@ -24,6 +24,15 @@
 - logs (项目日志)
 
 ## Notes
+
+### 泡泡玛特是专门收割Z世代的低烈度糖精 | 理解泡泡玛特（上）
+
+- Date: 2026-06-21
+- Category: reads
+- Tags: B站, 泡泡玛特, Z世代, 品牌, 消费
+- Summary: 一条围绕泡泡玛特与 Z 世代消费、情绪价值和品牌叙事的视频，适合作为品牌观察样本保存。
+- Source: 泡泡玛特是专门收割Z世代的低烈度糖精 | 理解泡泡玛特（上） https://www.bilibili.com/video/BV1soVV6UE9q/
+- URL: https://syd-idea.pages.dev/note.html?slug=bilibili-papomart-z-generation-low-intensity-sugar
 
 ### Studio First vs Cohub First：Fantasy World Vibe 的两种 GTM 路线
 
