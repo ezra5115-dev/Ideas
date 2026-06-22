@@ -39,7 +39,7 @@
 - Date: 2026-06-21
 - Category: reads
 - Tags: 泡泡玛特, IP, 消费心理, Z世代, 多巴胺, 内啡肽, 投射型IP, 叙事型IP
-- Summary: 泡泡玛特的本质是为现代人提供一个「可被占有的小他者」，用快反馈、低门槛的投射型 IP 绕过内容铺垫，直接建立身份标签。这与叙事型 IP（迪士尼、漫威）构成本质差异。
+- Summary: 泡泡玛特的本质是为现代人提供一个「可被占有的小他者」，用快反馈、低门槛的投射型 IP 绕过内容铺垫，直接建立身份标签。背后是 Z 世代在原子化社会中的情感代偿、身份锚定和社交符号需求。
 - URL: https://syd-idea.pages.dev/note.html?slug=popmart-z-generation-ip-psychology
 
 ### Studio First vs Cohub First：Fantasy World Vibe 的两种 GTM 路线
