@@ -1,7 +1,26 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-06-21",
+  "updated": "2026-06-22",
   "notes": [
+    {
+      "slug": "bilibili-papomart-z-generation-low-intensity-sugar",
+      "title": "泡泡玛特是专门收割Z世代的低烈度糖精 | 理解泡泡玛特（上）",
+      "date": "2026-06-21",
+      "category": "reads",
+      "tags": [
+        "B站",
+        "泡泡玛特",
+        "Z世代",
+        "品牌",
+        "消费"
+      ],
+      "summary": "一条围绕泡泡玛特与 Z 世代消费、情绪价值和品牌叙事的视频，适合作为品牌观察样本保存。",
+      "readMin": 25,
+      "source_url": "https://www.bilibili.com/video/BV1soVV6UE9q/",
+      "source_title": "泡泡玛特是专门收割Z世代的低烈度糖精 | 理解泡泡玛特（上）",
+      "source_author": "老蒋巨靠谱",
+      "url": "/note.html?slug=bilibili-papomart-z-generation-low-intensity-sugar"
+    },
     {
       "slug": "world-vibe-gtm-studio-first-vs-cohub-first",
       "title": "Studio First vs Cohub First：Fantasy World Vibe 的两种 GTM 路线",
