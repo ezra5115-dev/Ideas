@@ -1,4 +1,4 @@
-# SYD Lazarus Pit — full content snapshot (2026-06-21)
+# SYD Lazarus Pit — full content snapshot (2026-06-22)
 
 All notes concatenated, latest first.
 
@@ -6,10 +6,10 @@ All notes concatenated, latest first.
 title: Studio First vs Cohub First：Fantasy World Vibe 的两种 GTM 路线
 date: 2026-06-21
 category: reads
-tags: GTM, Studio, Cohub, world building, interactive story, Roleplay
+tags: ["GTM", "Studio", "Cohub", "world building", "interactive story", "Roleplay"]
 summary: 围绕同一个长期心智 vibe building based on fantasy world，对比两种官网叙事入口：先把世界整理成体系，还是先把幻想灵感做成可玩故事。
 source_url: https://public.cohub.run/s/cc8750a1-14aa-403b-9cfe-c86717dd9fb0/world-vibe-gtm-report/index.html
-url: https://syd-idea.pages.dev/note.html?slug=world-vibe-gtm-studio-first-vs-cohub-first
+url: https://syd-idea.pages.dev/note.html?slug=hello-world
 ---
 
 ## {brief}
@@ -165,49 +165,68 @@ demo seed 选得很聪明。
 可以把这个 seed 模板化，作为 Studio 内部「demo-grade story」标准。
 
 ---
-title: 我的第一条想法
-date: 2026-06-20
-category: notes
-tags: 开始, 想法仓库
-summary: 这是网站上线后的第一条示例笔记。以后想法发给 Agent，由 Agent 整理后同步到这里。
-url: https://syd-idea.pages.dev/note.html?slug=hello-world
+title: 泡泡玛特是专门收割Z世代的低烈度糖精 | 理解泡泡玛特（上）
+date: 2026-06-21
+category: reads
+tags: ["B站", "泡泡玛特", "Z世代", "品牌", "消费"]
+summary: 一条围绕泡泡玛特与 Z 世代消费、情绪价值和品牌叙事的视频，适合作为品牌观察样本保存。
+source_url: https://www.bilibili.com/video/BV1soVV6UE9q/
+url: https://syd-idea.pages.dev/note.html?slug=bilibili-papomart-z-generation-low-intensity-sugar
 ---
 
 ## {brief}
 
-- 这个站是个人想法仓库，不是博客，也不是发布平台。
-- 内容由 Agent 整理后同步到 GitHub，Cloudflare Pages 自动部署。
-- 5 类内容：碎片、Studio、世界观、阅读、Prompt。
+- 这条视频标题直接指向一个判断：泡泡玛特与 Z 世代之间的关系，不只是“卖潮玩”，而是卖一种低烈度、持续性的情绪补给。
+- 适合作为品牌案例保存：它讲的不是单个商品，而是如何把消费转成长期情绪绑定。
+- 这类内容很适合放进 Ideas 的 reads 里，作为品牌、内容和消费心智的观察样本。
 
 ## {full}
 
-# 我的第一条想法
+# 泡泡玛特是专门收割Z世代的低烈度糖精 | 理解泡泡玛特（上）
 
-这是一个示例页面。
+这是一条 B 站视频，围绕泡泡玛特、Z 世代和消费心智展开。
 
-以后流程：
+我先把它当成一个可复用的观察样本保存，而不是只当成一条视频链接。
 
-1. 在 Cohub 把想法发给 Agent。
-2. Agent 整理成 Markdown。
-3. Agent 写入 GitHub 仓库。
-4. Cloudflare Pages 自动发布。
-5. 网站自动更新。
+它能提供的价值大致有三层：
 
-这个站可以慢慢长成：
+1. 品牌如何把“商品”做成“情绪对象”。
+2. 年轻消费群体如何被低频、持续的内容和符号绑定。
+3. 叙事如何从“卖东西”转成“卖一种身份感和情绪补给”。
 
-- 想法仓库
-- Studio 产品日志
-- 世界观档案
-- 阅读笔记库
-- Prompt 实验记录
+如果后面要继续研究品牌、内容和消费心理，这条视频可以作为一个入口。
+
+## {source}
+
+- 原文链接：[泡泡玛特是专门收割Z世代的低烈度糖精 | 理解泡泡玛特（上）](https://www.bilibili.com/video/BV1soVV6UE9q/)
+- UP 主：老蒋巨靠谱
+- 时长：25 分钟
+
+![](https://i2.hdslb.com/bfs/archive/d0c3d8b332f30121693605c56d80b7e4e6b7eff8.jpg)
+
+![](https://i0.hdslb.com/bfs/storyff/_000038rjhmnsapgqq2vuqg6kme794qb_firsti.jpg)
+
+## {mine}
+
+我把它放进 Ideas 的理由很简单：
+
+它不是“看完就算”的视频，而是一个可以反复回来看结构的样本。
+
+如果要继续延伸，可以往这几个方向看：
+
+- 情绪消费
+- 低烈度上瘾
+- 品牌符号系统
+- 年轻人身份认同
+- 内容如何放大消费黏性
 
 ---
 title: Studio 不是生成器，而是长期创作工作台
 date: 2026-06-20
 category: studio
-tags: Studio, AI产品, 世界观, 长期记忆
+tags: ["Studio", "AI产品", "世界观", "长期记忆"]
 summary: 用户真正需要的不是一次性生成，而是一个能记住偏好、维护一致性、让世界观持续生长的创作工作台。
-url: https://syd-idea.pages.dev/note.html?slug=studio-as-long-term-workbench
+url: https://syd-idea.pages.dev/note.html?slug=hello-world
 ---
 
 ## {brief}
@@ -247,3 +266,40 @@ Studio 要解决的是：
 > 我感觉这个东西越来越懂我。
 
 这就是 Studio 的长期价值。
+
+---
+title: 我的第一条想法
+date: 2026-06-20
+category: notes
+tags: ["开始", "想法仓库"]
+summary: 这是网站上线后的第一条示例笔记。以后想法发给 Agent，由 Agent 整理后同步到这里。
+url: https://syd-idea.pages.dev/note.html?slug=hello-world
+---
+
+## {brief}
+
+- 这个站是个人想法仓库，不是博客，也不是发布平台。
+- 内容由 Agent 整理后同步到 GitHub，Cloudflare Pages 自动部署。
+- 5 类内容：碎片、Studio、世界观、阅读、Prompt。
+
+## {full}
+
+# 我的第一条想法
+
+这是一个示例页面。
+
+以后流程：
+
+1. 在 Cohub 把想法发给 Agent。
+2. Agent 整理成 Markdown。
+3. Agent 写入 GitHub 仓库。
+4. Cloudflare Pages 自动发布。
+5. 网站自动更新。
+
+这个站可以慢慢长成：
+
+- 想法仓库
+- Studio 产品日志
+- 世界观档案
+- 阅读笔记库
+- Prompt 实验记录
