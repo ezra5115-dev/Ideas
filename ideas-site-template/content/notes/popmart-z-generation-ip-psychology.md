@@ -12,6 +12,8 @@ status: "published"
 
 ## {brief}
 
+![泡泡玛特IP矩阵分析](/assets/popmart-z-generation.webp)
+
 - 泡泡玛特的本质不是盲盒，是一个「可被占有的小他者」，承载自我投射和自我表达。
 - 治愈系 IP（Dimoo、小甜豆）补偿童年纯真；叛逆系 IP（Labubu、小野）释放被社会压抑的边缘自我。
 - IP 消费分两种：多巴胺模式（投射型）与内啡肽模式（叙事型），泡泡玛特是前者。
