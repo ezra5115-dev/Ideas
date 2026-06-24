@@ -1,0 +1,19 @@
+{
+  "name": "SYD",
+  "site": "SYD Lazarus Pit",
+  "site_url": "https://syd-idea.pages.dev",
+  "github": "ezra5115-dev/Ideas",
+  "active_projects": [
+    "World Vibe GTM",
+    "SYD Lazarus Pit 网站系统"
+  ],
+  "writing_style": "保留碎片感，不要营销文，不要AI味，短句有节奏",
+  "default_category": "notes",
+  "preferred_tags": ["Studio", "AI", "创作系统", "GTM", "world building"],
+  "reading_interests": ["Agent 创业", "IP 消费心理", "world building", "Z世代", "AI产品"],
+  "avoid": ["赋能", "抓手", "拥抱", "重塑", "底层逻辑", "方法论"],
+  "schedule": {
+    "weekly_review": "每周日晚 20:00 Asia/Shanghai",
+    "daily_check": "工作日 09:00 Asia/Shanghai"
+  }
+}
