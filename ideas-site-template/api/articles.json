@@ -1,7 +1,28 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-06-22",
+  "updated": "2026-06-24",
   "notes": [
+    {
+      "slug": "laper-opc-real-financials-6-months",
+      "title": "OPC 公司真实财报：Laper 发布的 6 个月后",
+      "date": "2026-06-24",
+      "category": "reads",
+      "tags": [
+        "Agent",
+        "AI创业",
+        "Laper",
+        "OPC",
+        "MRR",
+        "AI务虚三杰",
+        "模型吞噬"
+      ],
+      "summary": "Laper 发布六个月后 MRR 7,609 美元，两个人 150 万行 AI 代码，0 融资。赵纯想的 Agentic 产品复盘：超垂直专家产品或许能活，模型的桌面端正在吃掉一切 Agent 1.0。",
+      "readMin": 8,
+      "url": "/note.html?slug=laper-opc-real-financials-6-months",
+      "source_url": "https://mp.weixin.qq.com/s/jAaANyCgbPEURRpde1EBRA",
+      "source_title": "OPC公司真实财报：Laper 发布的6个月后",
+      "source_author": "赵纯想"
+    },
     {
       "slug": "bilibili-papomart-z-generation-low-intensity-sugar",
       "title": "泡泡玛特是专门收割Z世代的低烈度糖精 | 理解泡泡玛特（上）",
