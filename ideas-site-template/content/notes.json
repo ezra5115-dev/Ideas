@@ -1,6 +1,6 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-06-24",
+  "updated": "2026-06-25",
   "notes": [
     {
       "slug": "laper-opc-real-financials-6-months",
@@ -22,6 +22,25 @@
       "source_url": "https://mp.weixin.qq.com/s/jAaANyCgbPEURRpde1EBRA",
       "source_title": "OPC公司真实财报：Laper 发布的6个月后",
       "source_author": "赵纯想"
+    },
+    {
+      "slug": "varys-spy-network-worldbuilding",
+      "title": "瓦里斯如何管理他的情报网络？一个世界观的底层运转逻辑",
+      "date": "2026-06-24",
+      "category": "worlds",
+      "tags": [
+        "world building",
+        "ASOIAF",
+        "情报系统",
+        "角色设计",
+        "世界观"
+      ],
+      "summary": "从《冰与火之歌》瓦里斯的情报网看一个虚构世界的核心基础设施如何设计：招募、通信、验证、支付——一个完整的情报系统的运转逻辑。",
+      "readMin": 5,
+      "url": "/note.html?slug=varys-spy-network-worldbuilding",
+      "source_url": "https://www.reddit.com/r/asoiaf/comments/hxxbs7/how_does_varys_manage_his_network_of_informants/",
+      "source_title": "How does Varys manage his network of informants? [Spoilers Extended]",
+      "source_author": "r/asoiaf"
     },
     {
       "slug": "bilibili-papomart-z-generation-low-intensity-sugar",
