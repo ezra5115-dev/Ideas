@@ -130,31 +130,17 @@ tags: world building, ASOIAF, 情报系统, 角色设计, 世界观
 
 # 瓦里斯的情报网络：一个虚构世界观的基础设施
 
-这是 r/asoiaf 上关于[瓦里斯](https://iceandfire.fandom.com/wiki/Varys)情报系统运作方式的一次讨论。把它拆开看，其实是一个虚构世界里「信息基础设施」的完整设计。
+这是 r/asoiaf 上关于[瓦里斯](https://gameofthrones.fandom.com/wiki/Varys)情报系统运作方式的一次讨论。拆开看，其实是一个虚构世界里「信息基础设施」的完整设计。
 
 ## 关键角色
 
-### [瓦里斯](https://iceandfire.fandom.com/wiki/Varys) — 情报总管
+**[瓦里斯](https://gameofthrones.fandom.com/wiki/Varys)** — 外号「八爪蜘蛛」，维斯特洛情报总管。无家族、无领地、无军队，靠信息不对称在权力游戏里活过三代国王。
 
-![瓦里斯](https://syd-idea.pages.dev/assets/varys/varys.jpg)
+**[伊利里欧·摩帕提斯](https://gameofthrones.fandom.com/wiki/Illyrio_Mopatis)** — 潘托斯富商，瓦里斯在厄斯索斯的搭档。两人从盗贼与销赃者的合作关系起家，后来共同策划了小格里夫（fAegon）的复辟计划。
 
-外号「八爪蜘蛛」，维斯特洛情报总管。无家族、无领地、无军队，靠信息不对称在权力的游戏里活过三代国王。
+**[科本](https://gameofthrones.fandom.com/wiki/Qyburn)** — 前学城学士，因「不道德实验」被除名。瓦里斯逃亡后接任情报总管，证明了情报基础设施的惯性——换人不换系统，网络照样运转。
 
-### [伊利里欧·摩帕提斯](https://iceandfire.fandom.com/wiki/Illyrio_Mopatis) — 自由贸易城邦合伙人
-
-![伊利里欧](https://syd-idea.pages.dev/assets/varys/illyrio.jpg)
-
-潘托斯富商，瓦里斯在厄斯索斯的搭档。两人从盗贼与销赃者的合作关系起家，后来共同策划了小格里夫（fAegon）的复辟计划。
-
-### [科本](https://iceandfire.fandom.com/wiki/Qyburn) — 继任者
-
-![科本](https://syd-idea.pages.dev/assets/varys/qyburn.jpg)
-
-前学城学士，因「不道德实验」被除名。瓦里斯逃亡后接任情报总管，证明了情报基础设施的惯性——换人不换系统，网络照样运转。
-
-### [伊里斯二世·坦格利安](https://iceandfire.fandom.com/wiki/Aerys_II_Targaryen) — 召唤者
-
-「疯王」。正是他因为疑心重重，把瓦里斯从自由贸易城邦召来君临——这个决定改变了维斯特洛的整个情报格局。
+**[伊里斯二世·坦格利安](https://gameofthrones.fandom.com/wiki/Aerys_II_Targaryen)** — 「疯王」。正是因为疑心重重，他把瓦里斯从自由贸易城邦召来君临——这个决定改变了维斯特洛的整个情报格局。
 
 ## 原帖讨论精华
 
@@ -260,25 +246,26 @@ tags: world building, ASOIAF, 情报系统, 角色设计, 世界观
 
 | 地点 | 说明 | Fandom |
 |---|---|---|
-| [君临](https://iceandfire.fandom.com/wiki/King%27s_Landing) | 七大王国的首都，瓦里斯直接执掌情报的核心区域 | [→ Wiki](https://iceandfire.fandom.com/wiki/King%27s_Landing) |
-| [红堡](https://iceandfire.fandom.com/wiki/Red_Keep) | 王宫与权力中心，瓦里斯的「监听主战场」 | [→ Wiki](https://iceandfire.fandom.com/wiki/Red_Keep) |
-| [维斯特洛](https://iceandfire.fandom.com/wiki/Westeros) | 七大王国所在的大陆，情报网覆盖的主要区域 | [→ Wiki](https://iceandfire.fandom.com/wiki/Westeros) |
-| [厄斯索斯](https://iceandfire.fandom.com/wiki/Essos) | 东方大陆，伊利里欧的势力范围，小小鸟的来源地 | [→ Wiki](https://iceandfire.fandom.com/wiki/Essos) |
+| [君临](https://gameofthrones.fandom.com/wiki/King%27s_Landing) | 七大王国的首都，瓦里斯直接执掌情报的核心区域 | [→ Wiki](https://gameofthrones.fandom.com/wiki/King%27s_Landing) |
+| [红堡](https://gameofthrones.fandom.com/wiki/Red_Keep) | 王宫与权力中心，瓦里斯的「监听主战场」 | [→ Wiki](https://gameofthrones.fandom.com/wiki/Red_Keep) |
+| [维斯特洛](https://gameofthrones.fandom.com/wiki/Westeros) | 七大王国所在的大陆，情报网覆盖的主要区域 | [→ Wiki](https://gameofthrones.fandom.com/wiki/Westeros) |
+| [厄斯索斯](https://gameofthrones.fandom.com/wiki/Essos) | 东方大陆，伊利里欧的势力范围，小小鸟的来源地 | [→ Wiki](https://gameofthrones.fandom.com/wiki/Essos) |
 
+![君临](https://syd-idea.pages.dev/assets/varys/kingslanding.jpg)
 ![红堡](https://syd-idea.pages.dev/assets/varys/redkeep.jpg)
-![维斯特洛](https://syd-idea.pages.dev/assets/varys/westeros.jpg)
-![厄斯索斯](https://syd-idea.pages.dev/assets/varys/essos.jpg)
+![维斯特洛地图](https://syd-idea.pages.dev/assets/varys/westeros.jpg)
+![厄斯索斯地图](https://syd-idea.pages.dev/assets/varys/essos.jpg)
 
 ## Fandom Wiki 参考
 
-- [Varys — A Wiki of Ice and Fire](https://iceandfire.fandom.com/wiki/Varys)
-- [Illyrio Mopatis](https://iceandfire.fandom.com/wiki/Illyrio_Mopatis)
-- [Qyburn](https://iceandfire.fandom.com/wiki/Qyburn)
-- [Aerys II Targaryen](https://iceandfire.fandom.com/wiki/Aerys_II_Targaryen)
-- [King's Landing](https://iceandfire.fandom.com/wiki/King%27s_Landing)
-- [Red Keep](https://iceandfire.fandom.com/wiki/Red_Keep)
-- [Westeros](https://iceandfire.fandom.com/wiki/Westeros)
-- [Essos](https://iceandfire.fandom.com/wiki/Essos)
+- [Varys — A Wiki of Ice and Fire](https://gameofthrones.fandom.com/wiki/Varys)
+- [Illyrio Mopatis](https://gameofthrones.fandom.com/wiki/Illyrio_Mopatis)
+- [Qyburn](https://gameofthrones.fandom.com/wiki/Qyburn)
+- [Aerys II Targaryen](https://gameofthrones.fandom.com/wiki/Aerys_II_Targaryen)
+- [King's Landing](https://gameofthrones.fandom.com/wiki/King%27s_Landing)
+- [Red Keep](https://gameofthrones.fandom.com/wiki/Red_Keep)
+- [Westeros](https://gameofthrones.fandom.com/wiki/Westeros)
+- [Essos](https://gameofthrones.fandom.com/wiki/Essos)
 
 ---
 title: 泡泡玛特是专门收割Z世代的低烈度糖精 | 理解泡泡玛特（上）
