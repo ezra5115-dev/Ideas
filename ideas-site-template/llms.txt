@@ -2,26 +2,10 @@
 
 > AI-curated personal idea archive. Human + LLM readable.
 
-## How to use
-
-- Browse the homepage for the catalog.
-- Each article page has tabs: brief / full / source / mine.
-- Structured data: /api/articles.json
-- Full content for LLMs: /llms-full.txt
-
 ## Stats
 
-- Updated: 2026-06-24
-- Total notes: 6
-
-## Categories
-
-- notes (碎片想法)
-- studio (Studio 产品思考)
-- worlds (世界观档案)
-- reads (阅读摘录，带原文)
-- prompts (Prompt 实验)
-- logs (项目日志)
+- Updated: 2026-06-25
+- Total notes: 7
 
 ## Notes
 
@@ -33,6 +17,15 @@
 - Summary: Laper 发布六个月后 MRR 7,609 美元，两个人 150 万行 AI 代码，0 融资。赵纯想的 Agentic 产品复盘：超垂直专家产品或许能活，模型的桌面端正在吃掉一切 Agent 1.0。
 - Source: OPC公司真实财报：Laper 发布的6个月后 https://mp.weixin.qq.com/s/jAaANyCgbPEURRpde1EBRA
 - URL: https://syd-idea.pages.dev/note.html?slug=laper-opc-real-financials-6-months
+
+### 瓦里斯如何管理他的情报网络？一个世界观的底层运转逻辑
+
+- Date: 2026-06-24
+- Category: worlds
+- Tags: world building, ASOIAF, 情报系统, 角色设计, 世界观
+- Summary: 从《冰与火之歌》瓦里斯的情报网看一个虚构世界的核心基础设施如何设计：招募、通信、验证、支付——一个完整的情报系统的运转逻辑。
+- Source: How does Varys manage his network of informants? [Spoilers Extended] https://www.reddit.com/r/asoiaf/comments/hxxbs7/how_does_varys_manage_his_network_of_informants/
+- URL: https://syd-idea.pages.dev/note.html?slug=varys-spy-network-worldbuilding
 
 ### 泡泡玛特是专门收割Z世代的低烈度糖精 | 理解泡泡玛特（上）
 
