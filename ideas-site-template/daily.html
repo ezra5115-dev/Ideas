@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Daily — SYD Lazarus Pit</title>
+<meta name="description" content="每日日程记录" />
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#FAFAF8;--card:#fff;--soft:#f4ece3;--text:#1a1a1a;--muted:#746d66;--light:#aaa39b;--accent:#b7794c;--border:#e8e2da;--shadow:0 4px 20px rgba(0,0,0,.04);--sans:Inter,-apple-system,BlinkMacSystemFont,'PingFang SC','Helvetica Neue',sans-serif;--serif:'Noto Serif SC','Source Han Serif SC',Georgia,serif}
+@media(prefers-color-scheme:dark){:root{--bg:#141313;--card:#1e1c1a;--soft:#27211d;--text:#eee8df;--muted:#9d958c;--light:#6b6560;--accent:#d59a6f;--border:#2c2a26;--shadow:none}}
+body{background:radial-gradient(circle at 18% -10%,var(--soft),transparent 30%),var(--bg);color:var(--text);font-family:var(--sans);line-height:1.65;padding:0 20px}.wrap{max-width:920px;margin:0 auto;padding:42px 0 80px}.back{color:var(--accent);text-decoration:none;font-size:14px}.hero{padding:30px 0}.eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:700}h1{font-family:var(--serif);font-size:42px;letter-spacing:-.03em;line-height:1.15;margin:8px 0 12px}.desc{color:var(--muted);max-width:660px}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 24px}.search{flex:1;min-width:240px;border:1px solid var(--border);background:var(--card);color:var(--text);border-radius:12px;padding:11px 14px}.day-group{margin-bottom:28px}.day-header{display:flex;align-items:baseline;gap:10px;padding:6px 0;border-bottom:1px solid var(--border);margin-bottom:10px}.day-header h2{font-family:var(--serif);font-size:18px;letter-spacing:-.015em}.day-header .dow{color:var(--light);font-size:13px}.entry{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 20px;margin-bottom:10px;box-shadow:var(--shadow)}.entry p{color:var(--text);font-size:15px;line-height:1.75;font-family:var(--serif)}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}.tag{font-size:11px;color:var(--accent);background:var(--soft);border-radius:999px;padding:2px 8px}.empty{padding:28px;border:1px dashed var(--border);border-radius:16px;color:var(--light);text-align:center}footer{margin-top:36px;border-top:1px solid var(--border);padding-top:18px;color:var(--light);font-size:13px}footer a{color:var(--light)}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <a class="back" href="/">← 返回首页</a>
+  <section class="hero">
+    <div class="eyebrow">Daily Log</div>
+    <h1>Daily</h1>
+    <p class="desc">每日日程与记录。在 Cohub 里说「记录每日」即可自动添加。</p>
+  </section>
+  <section class="toolbar">
+    <input id="search" class="search" placeholder="搜索内容……" />
+  </section>
+  <section id="list"></section>
+  <footer><a href="/">SYD Lazarus Pit</a> · <a href="/content/daily.json">daily.json</a></footer>
+</main>
+<script>
+let entries=[],q='';
+const list=document.querySelector('#list'),search=document.querySelector('#search');
+fetch('/content/daily.json?v=20260624',{cache:'no-store'}).then(r=>r.json()).then(d=>{
+  entries=(d.entries||[]).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+  render();
+}).catch(()=>list.innerHTML='<div class="empty">读取失败</div>');
+search.oninput=()=>{q=search.value.trim().toLowerCase();render()};
+const WDAYS=['日','一','二','三','四','五','六'];
+function render(){
+  const items=q?entries.filter(e=>JSON.stringify(e).toLowerCase().includes(q)):entries;
+  if(!items.length){list.innerHTML='<div class="empty">没有匹配记录。</div>';return}
+  // group by date
+  const groups=new Map();
+  items.forEach(e=>{
+    if(!groups.has(e.date))groups.set(e.date,[]);
+    groups.get(e.date).push(e);
+  });
+  list.innerHTML=[...groups.entries()].map(([d,arr])=>{
+    const dt=new Date(d+'T00:00:00+08:00');
+    const dow=WDAYS[dt.getDay()];
+    return `<section class="day-group">
+      <div class="day-header"><h2>${d}</h2><span class="dow">周${dow}</span></div>
+      ${arr.map(e=>`<div class="entry"><p>${esc(e.content)}</p>${(e.tags||[]).length?`<div class="tags">${e.tags.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>`:''}</div>`).join('')}
+    </section>`;
+  }).join('');
+}
+function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+</script>
+</body>
+</html>
