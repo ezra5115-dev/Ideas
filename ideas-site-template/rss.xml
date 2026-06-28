@@ -2,7 +2,14 @@
 <rss version="2.0"><channel>
 <title>SYD Lazarus Pit</title>
 <link>https://syd-idea.pages.dev/</link>
-<lastBuildDate>Thu, 25 Jun 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 28 Jun 2026 00:00:00 +0000</lastBuildDate>
+<item>
+<title><![CDATA[Claude Code Skills 深度解析：Anthropic 内部几百个 Skill 的实战经验]]></title>
+<link>https://syd-idea.pages.dev/note.html?slug=claude-code-skills-deep-dive</link>
+<guid isPermaLink="true">https://syd-idea.pages.dev/note.html?slug=claude-code-skills-deep-dive</guid>
+<pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+<description><![CDATA[Anthropic 官方博客首次系统披露 Skills 机制：Skill 是文件夹不是文件、description 只有 250 字符预算、验证类 Skill 回报最大、坑点清单是含金量最高的部分。7 个问题一次讲透。]]></description>
+</item>
 <item>
 <title><![CDATA[OPC 公司真实财报：Laper 发布的 6 个月后]]></title>
 <link>https://syd-idea.pages.dev/note.html?slug=laper-opc-real-financials-6-months</link>
