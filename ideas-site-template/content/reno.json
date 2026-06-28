@@ -100,29 +100,7 @@
           "状态": "待购"
         }
       ],
-      "diagram": "淋浴/洗衣房排风合流（共 1 个止逆阀）：\n三干王(75)─→┐\n            ├→ 外三通① ──→┐\n浴霸①   ─→┘              ├→ 外三通② ──→ 止逆阀(110) ──→ 外墙口(80mm)\n浴霸②   ────────────────→┘\n\n洗手间独立排风（共 1 个止逆阀）：\n洗手间浴霸 ──→ 铝箔管(75mm) ──→ 止逆阀(110) ──→ 外墙口(80mm)",
-      "images": [
-        {
-          "label": "110口径止逆阀（烟道用）",
-          "src": "/assets/reno/check-valve.png",
-          "link": "https://s.taobao.com/search?q=110止逆阀不锈钢"
-        },
-        {
-          "label": "铝箔排风管（浴霸用75mm）",
-          "src": "/assets/reno/alu-duct.png",
-          "link": "https://s.taobao.com/search?q=75mm铝箔排风管浴霸"
-        },
-        {
-          "label": "外三通（排风合流用）",
-          "src": "/assets/reno/t-junction.png",
-          "link": "https://s.taobao.com/search?q=排风管三通浴霸"
-        },
-        {
-          "label": "外墙排风口",
-          "src": "/assets/reno/wall-outlet.png",
-          "link": "https://s.taobao.com/search?q=外墙排风口风帽80mm"
-        }
-      ]
+      "diagram": "淋浴/洗衣房排风合流（共 1 个止逆阀）：\n三干王(75)─→┐\n            ├→ 外三通① ──→┐\n浴霸①   ─→┘              ├→ 外三通② ──→ 止逆阀(110) ──→ 外墙口(80mm)\n浴霸②   ────────────────→┘\n\n洗手间独立排风（共 1 个止逆阀）：\n洗手间浴霸 ──→ 铝箔管(75mm) ──→ 止逆阀(110) ──→ 外墙口(80mm)"
     }
   ]
 }
