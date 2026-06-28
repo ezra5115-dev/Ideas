@@ -1,7 +1,26 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-06-25",
+  "updated": "2026-06-28",
   "notes": [
+    {
+      "slug": "claude-code-skills-deep-dive",
+      "title": "Claude Code Skills 深度解析：Anthropic 内部几百个 Skill 的实战经验",
+      "date": "2026-06-28",
+      "category": "reads",
+      "tags": [
+        "Claude Code",
+        "Skills",
+        "AI 工程",
+        "Anthropic",
+        "Agent"
+      ],
+      "summary": "Anthropic 官方博客首次系统披露 Skills 机制：Skill 是文件夹不是文件、description 只有 250 字符预算、验证类 Skill 回报最大、坑点清单是含金量最高的部分。7 个问题一次讲透。",
+      "readMin": 8,
+      "url": "/note.html?slug=claude-code-skills-deep-dive",
+      "source_url": "https://mp.weixin.qq.com/s/D0Pu6fm6EbC2EUy6CrPmlw",
+      "source_title": "面试官皱眉：Claude Code 你用了半年，你懂 Skills 吗？",
+      "source_author": "小林coding"
+    },
     {
       "slug": "laper-opc-real-financials-6-months",
       "title": "OPC 公司真实财报：Laper 发布的 6 个月后",
