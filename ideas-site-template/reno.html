@@ -49,7 +49,7 @@ search.oninput=()=>{q=search.value.trim().toLowerCase();render()};
 const WDAYS=['日','一','二','三','四','五','六'];
 function showStats(){
   let total=0,done=0;
-  entries.forEach(e=>{(e.table||[]).forEach(t=>{total++;if(t.status.includes('待施工')||t.status.includes('已预约')||t.status.includes('已完成'))done++})});
+  entries.forEach(e=>{(e.table||[]).forEach(t=>{const status=t.status||t.状态||'';total++;if(status.includes('待施工')||status.includes('已预约')||status.includes('已完成'))done++})});
   stats.innerHTML=`<div class="stat"><div class="n">${total||0}</div><div class="l">总项目</div></div><div class="stat"><div class="n">${done||0}</div><div class="l">已推进</div></div><div class="stat"><div class="n">${total-done||0}</div><div class="l">待处理</div></div>`;
 }
 function render(){
@@ -62,7 +62,7 @@ function render(){
     if(e.table&&e.table.length){
       html+=`<table><thead><tr><th>类别</th><th>项目</th><th>规格/数量</th><th>状态</th></tr></thead><tbody>`;
       e.table.forEach(r=>{
-        const s=r.status||'';
+        const s=r.status||r.状态||'';
         const cls=s.includes('已完成')||s.includes('已预约')||s.includes('待施工')?'status-done':'status-pending';
         html+=`<tr><td>${esc(r.类别||'')}</td><td>${esc(r.项目||'')}</td><td>${esc(r.规格||'')}</td><td><span class="status ${cls}">${esc(s)}</span></td></tr>`;
       });
