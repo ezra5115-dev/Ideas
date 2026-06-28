@@ -12,6 +12,7 @@
 body{background:radial-gradient(circle at 18% -10%,var(--soft),transparent 30%),var(--bg);color:var(--text);font-family:var(--sans);line-height:1.65;padding:0 20px}.wrap{max-width:920px;margin:0 auto;padding:42px 0 80px}.back{color:var(--accent);text-decoration:none;font-size:14px}.hero{padding:30px 0}.eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:700}h1{font-family:var(--serif);font-size:42px;letter-spacing:-.03em;line-height:1.15;margin:8px 0 12px}.desc{color:var(--muted);max-width:660px}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 24px}.search{flex:1;min-width:240px;border:1px solid var(--border);background:var(--card);color:var(--text);border-radius:12px;padding:11px 14px}.day-group{margin-bottom:28px}.day-header{display:flex;align-items:baseline;gap:10px;padding:6px 0;border-bottom:1px solid var(--border);margin-bottom:10px}.day-header h2{font-family:var(--serif);font-size:18px;letter-spacing:-.015em}.day-header .dow{color:var(--light);font-size:13px}.entry{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 20px;margin-bottom:10px;box-shadow:var(--shadow)}.entry p{color:var(--text);font-size:15px;line-height:1.75;font-family:var(--serif);margin-bottom:12px}
 table{width:100%;border-collapse:collapse;font-size:14px;margin-top:8px}
 
+.notes-block{margin-top:16px}.notes-block h3{font-family:var(--serif);font-size:16px;color:var(--accent);margin:14px 0 6px}.notes-block ul{margin:0 0 4px;padding-left:18px}.notes-block li{font-size:14px;line-height:1.7;color:var(--text);margin-bottom:4px}
 .diagram{white-space:pre;overflow:auto;background:var(--soft);border:1px solid var(--border);border-radius:12px;padding:14px;margin:12px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:13px;line-height:1.6;color:var(--text)}
 th{text-align:left;padding:8px 10px;border-bottom:2px solid var(--border);font-weight:600;color:var(--accent);font-size:12px;letter-spacing:.05em;text-transform:uppercase}
 td{padding:8px 10px;border-bottom:1px solid var(--border);vertical-align:top}
@@ -71,6 +72,7 @@ function render(){
       });
       html+=`</tbody></table>`;
     }
+    if(e.notes&&e.notes.length){html+=`<div class="notes-block">${e.notes.map(n=>`<h3>${esc(n.title)}</h3><ul>${(n.items||[]).map(i=>`<li>${esc(i)}</li>`).join("")}</ul>`).join("")}</div>`;}
     html+=`${(e.tags||[]).length?`<div class="tags">${e.tags.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>`:''}</div></section>`;
     return html;
   }).join('');
