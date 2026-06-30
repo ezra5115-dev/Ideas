@@ -4,22 +4,18 @@
 
 ## Notes
 
-### Claude Code Skills 深度解析：Anthropic 内部几百个 Skill 的实战经验
+### Taste Skill: 前端接口 Agent 的美学判断层
 
 - Date: 2026-06-28
-- Category: reads
-- Tags: Claude Code, Skills, AI 工程, Anthropic, Agent
-- Summary: Anthropic 官方博客首次系统披露 Skills 机制：Skill 是文件夹不是文件、description 只有 250 字符预算、验证类 Skill 回报最大、坑点清单是含金量最高的部分。7 个问题一次讲透。
-- Source: 面试官皱眉：Claude Code 你用了半年，你懂 Skills 吗？ https://mp.weixin.qq.com/s/D0Pu6fm6EbC2EUy6CrPmlw
-- URL: https://syd-idea.pages.dev/note.html?slug=claude-code-skills-deep-dive
+- Category: studio
+- Tags: Agent, Taste, 美学, Skill, 产品设计, AI决策
+- URL: https://syd-idea.pages.dev/note.html?slug=taste-skill-agent-aesthetic
 
 ### OPC 公司真实财报：Laper 发布的 6 个月后
 
 - Date: 2026-06-24
 - Category: reads
 - Tags: Agent, AI创业, Laper, OPC, MRR, AI务虚三杰, 模型吞噬
-- Summary: Laper 发布六个月后 MRR 7,609 美元，两个人 150 万行 AI 代码，0 融资。赵纯想的 Agentic 产品复盘：超垂直专家产品或许能活，模型的桌面端正在吃掉一切 Agent 1.0。
-- Source: OPC公司真实财报：Laper 发布的6个月后 https://mp.weixin.qq.com/s/jAaANyCgbPEURRpde1EBRA
 - URL: https://syd-idea.pages.dev/note.html?slug=laper-opc-real-financials-6-months
 
 ### 瓦里斯如何管理他的情报网络？一个世界观的底层运转逻辑
@@ -27,8 +23,6 @@
 - Date: 2026-06-24
 - Category: worlds
 - Tags: world building, ASOIAF, 情报系统, 角色设计, 世界观
-- Summary: 从《冰与火之歌》瓦里斯的情报网看一个虚构世界的核心基础设施如何设计：招募、通信、验证、支付——一个完整的情报系统的运转逻辑。
-- Source: How does Varys manage his network of informants? [Spoilers Extended] https://www.reddit.com/r/asoiaf/comments/hxxbs7/how_does_varys_manage_his_network_of_informants/
 - URL: https://syd-idea.pages.dev/note.html?slug=varys-spy-network-worldbuilding
 
 ### 泡泡玛特是专门收割Z世代的低烈度糖精 | 理解泡泡玛特（上）
@@ -36,8 +30,6 @@
 - Date: 2026-06-21
 - Category: reads
 - Tags: B站, 泡泡玛特, Z世代, 品牌, 消费
-- Summary: 一条围绕泡泡玛特与 Z 世代消费、情绪价值和品牌叙事的视频，适合作为品牌观察样本保存。
-- Source: 泡泡玛特是专门收割Z世代的低烈度糖精 | 理解泡泡玛特（上） https://www.bilibili.com/video/BV1soVV6UE9q/
 - URL: https://syd-idea.pages.dev/note.html?slug=bilibili-papomart-z-generation-low-intensity-sugar
 
 ### 泡泡玛特与 Z 世代消费心理：从叙事型到投射型的 IP 范式转变
@@ -45,7 +37,6 @@
 - Date: 2026-06-21
 - Category: reads
 - Tags: 泡泡玛特, IP, 消费心理, Z世代, 多巴胺, 内啡肽, 投射型IP, 叙事型IP
-- Summary: 泡泡玛特的本质是为现代人提供一个「可被占有的小他者」，用快反馈、低门槛的投射型 IP 绕过内容铺垫，直接建立身份标签。背后是 Z 世代在原子化社会中的情感代偿、身份锚定和社交符号需求。
 - URL: https://syd-idea.pages.dev/note.html?slug=popmart-z-generation-ip-psychology
 
 ### Studio First vs Cohub First：Fantasy World Vibe 的两种 GTM 路线
@@ -53,8 +44,6 @@
 - Date: 2026-06-21
 - Category: reads
 - Tags: GTM, Studio, Cohub, world building, interactive story, Roleplay
-- Summary: 围绕同一个长期心智 vibe building based on fantasy world，对比两种官网叙事入口：先把世界整理成体系，还是先把幻想灵感做成可玩故事。
-- Source: Studio First vs Cohub First — GTM 倾向方案对比 https://public.cohub.run/s/cc8750a1-14aa-403b-9cfe-c86717dd9fb0/world-vibe-gtm-report/index.html
 - URL: https://syd-idea.pages.dev/note.html?slug=world-vibe-gtm-studio-first-vs-cohub-first
 
 ### 我的第一条想法
@@ -62,7 +51,6 @@
 - Date: 2026-06-20
 - Category: notes
 - Tags: 开始, 想法仓库
-- Summary: 这是网站上线后的第一条示例笔记。以后想法发给 Agent，由 Agent 整理后同步到这里。
 - URL: https://syd-idea.pages.dev/note.html?slug=hello-world
 
 ### Studio 不是生成器，而是长期创作工作台
@@ -70,5 +58,4 @@
 - Date: 2026-06-20
 - Category: studio
 - Tags: Studio, AI产品, 世界观, 长期记忆
-- Summary: 用户真正需要的不是一次性生成，而是一个能记住偏好、维护一致性、让世界观持续生长的创作工作台。
 - URL: https://syd-idea.pages.dev/note.html?slug=studio-as-long-term-workbench
