@@ -1,25 +1,23 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-06-28",
+  "updated": "2026-06-30",
   "notes": [
     {
-      "slug": "claude-code-skills-deep-dive",
-      "title": "Claude Code Skills 深度解析：Anthropic 内部几百个 Skill 的实战经验",
+      "slug": "taste-skill-agent-aesthetic",
+      "title": "Taste Skill: 前端接口 Agent 的美学判断层",
       "date": "2026-06-28",
-      "category": "reads",
+      "category": "studio",
       "tags": [
-        "Claude Code",
-        "Skills",
-        "AI 工程",
-        "Anthropic",
-        "Agent"
+        "Agent",
+        "Taste",
+        "美学",
+        "Skill",
+        "产品设计",
+        "AI决策"
       ],
-      "summary": "Anthropic 官方博客首次系统披露 Skills 机制：Skill 是文件夹不是文件、description 只有 250 字符预算、验证类 Skill 回报最大、坑点清单是含金量最高的部分。7 个问题一次讲透。",
-      "readMin": 8,
-      "url": "/note.html?slug=claude-code-skills-deep-dive",
-      "source_url": "https://mp.weixin.qq.com/s/D0Pu6fm6EbC2EUy6CrPmlw",
-      "source_title": "面试官皱眉：Claude Code 你用了半年，你懂 Skills 吗？",
-      "source_author": "小林coding"
+      "summary": "在 Agent 决策前加一层美学包装——不是让 AI 替你选，而是让 AI 帮你穷举可能，你做最终的 taste 判断。调研了一轮之后发现 'taste is the new bottleneck' 是 2026 年 AI 设计界最热的话题。",
+      "readMin": 5,
+      "url": "/note.html?slug=taste-skill-agent-aesthetic"
     },
     {
       "slug": "laper-opc-real-financials-6-months",
