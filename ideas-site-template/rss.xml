@@ -2,13 +2,27 @@
 <rss version="2.0"><channel>
 <title>SYD Lazarus Pit</title>
 <link>https://syd-idea.pages.dev/</link>
-<lastBuildDate>Sun, 28 Jun 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 06 Jul 2026 00:00:00 +0000</lastBuildDate>
+<item>
+<title><![CDATA[如何讲好故事：万字学习手册]]></title>
+<link>https://syd-idea.pages.dev/note.html?slug=how-to-tell-good-stories</link>
+<guid isPermaLink="true">https://syd-idea.pages.dev/note.html?slug=how-to-tell-good-stories</guid>
+<pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+<description><![CDATA[好故事不是「发生了什么」，而是「谁在乎什么、遇到什么阻碍、做了什么选择、付出什么代价、因此发生什么改变、这个改变对听众意味着什么」。一篇关于故事最小单元、听众设计、冲突与因果链的系统方法论。]]></description>
+</item>
 <item>
 <title><![CDATA[Claude Code Skills 深度解析：Anthropic 内部几百个 Skill 的实战经验]]></title>
 <link>https://syd-idea.pages.dev/note.html?slug=claude-code-skills-deep-dive</link>
 <guid isPermaLink="true">https://syd-idea.pages.dev/note.html?slug=claude-code-skills-deep-dive</guid>
 <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
 <description><![CDATA[Anthropic 官方博客首次系统披露 Skills 机制：Skill 是文件夹不是文件、description 只有 250 字符预算、验证类 Skill 回报最大、坑点清单是含金量最高的部分。7 个问题一次讲透。]]></description>
+</item>
+<item>
+<title><![CDATA[Taste Skill: 前端接口 Agent 的美学判断层]]></title>
+<link>https://syd-idea.pages.dev/note.html?slug=taste-skill-agent-aesthetic</link>
+<guid isPermaLink="true">https://syd-idea.pages.dev/note.html?slug=taste-skill-agent-aesthetic</guid>
+<pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+<description><![CDATA[在 Agent 决策前加一层美学包装——不是让 AI 替你选，而是让 AI 帮你穷举可能，你做最终的 taste 判断。调研了一轮之后发现 'taste is the new bottleneck' 是 2026 年 AI 设计界最热的话题。]]></description>
 </item>
 <item>
 <title><![CDATA[OPC 公司真实财报：Laper 发布的 6 个月后]]></title>
