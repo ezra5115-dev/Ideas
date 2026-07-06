@@ -9,7 +9,7 @@
 - Date: 2026-07-01
 - Category: reads
 - Tags: 故事, 叙事, 表达, 乔布斯, 创作方法
-- Summary: 好故事不是「发生了什么」，而是「谁在乎什么、遇到什么阻碍、做了什么选择、付出什么代价、因此发生什么改变、这个改变对听众意味着什么」。一篇关于故事最小单元、听众设计、冲突与因果链的系统方法论。
+- Summary: 好故事不是「发生了什么」，而是「谁在乎什么、遇到什么阻碍、做了什么选择、付出什么代价、因此发生什么改变」。一篇关于故事最小单元、听众设计与冲突因果链的系统方法论。
 - Source: 如何讲好故事：万字学习手册 https://blog.qiaomu.ai/how-to-tell-good-stories
 - URL: https://syd-idea.pages.dev/note.html?slug=how-to-tell-good-stories
 
