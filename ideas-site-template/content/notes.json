@@ -1,7 +1,45 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-06-30",
+  "updated": "2026-07-06",
   "notes": [
+    {
+      "slug": "how-to-tell-good-stories",
+      "title": "如何讲好故事：万字学习手册",
+      "date": "2026-07-01",
+      "category": "reads",
+      "tags": [
+        "故事",
+        "叙事",
+        "表达",
+        "乔布斯",
+        "创作方法"
+      ],
+      "summary": "好故事不是「发生了什么」，而是「谁在乎什么、遇到什么阻碍、做了什么选择、付出什么代价、因此发生什么改变、这个改变对听众意味着什么」。一篇关于故事最小单元、听众设计、冲突与因果链的系统方法论。",
+      "readMin": 8,
+      "url": "/note.html?slug=how-to-tell-good-stories",
+      "source_url": "https://blog.qiaomu.ai/how-to-tell-good-stories",
+      "source_title": "如何讲好故事：万字学习手册",
+      "source_author": "乔木博客"
+    },
+    {
+      "slug": "claude-code-skills-deep-dive",
+      "title": "Claude Code Skills 深度解析：Anthropic 内部几百个 Skill 的实战经验",
+      "date": "2026-06-28",
+      "category": "reads",
+      "tags": [
+        "Claude Code",
+        "Skills",
+        "AI 工程",
+        "Anthropic",
+        "Agent"
+      ],
+      "summary": "Anthropic 官方博客首次系统披露 Skills 机制：Skill 是文件夹不是文件、description 只有 250 字符预算、验证类 Skill 回报最大、坑点清单是含金量最高的部分。7 个问题一次讲透。",
+      "readMin": 8,
+      "url": "/note.html?slug=claude-code-skills-deep-dive",
+      "source_url": "https://mp.weixin.qq.com/s/D0Pu6fm6EbC2EUy6CrPmlw",
+      "source_title": "面试官皱眉：Claude Code 你用了半年，你懂 Skills 吗？",
+      "source_author": "小林coding"
+    },
     {
       "slug": "taste-skill-agent-aesthetic",
       "title": "Taste Skill: 前端接口 Agent 的美学判断层",
