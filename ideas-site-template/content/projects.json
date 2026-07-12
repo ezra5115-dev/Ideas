@@ -1,6 +1,6 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-06-22",
+  "updated": "2026-07-12",
   "projects": [
     {
       "id": "world-vibe-gtm",
@@ -45,6 +45,14 @@
         {
           "text": "设计 Agent 发布和长期记忆工作流",
           "done": false
+        },
+        {
+          "text": "用 Demo seed 做出一个可点开的 interactive story 纵向切片（先丑后完整）",
+          "done": false
+        },
+        {
+          "text": "从 Studio 视觉探索沉淀 1 个可复用风格包/护栏规则到 GTM demo",
+          "done": false
         }
       ]
     },
@@ -86,6 +94,14 @@
         },
         {
           "text": "支持每周自动整理项目进度",
+          "done": true
+        },
+        {
+          "text": "补齐 Daily 断档排查：确认晚间 Space 扫描 cron 仍在写 daily.json",
+          "done": false
+        },
+        {
+          "text": "把本周 Studio 成果回流至少 1 篇 notes（artifact-guard 或视觉方法）",
           "done": false
         }
       ]
