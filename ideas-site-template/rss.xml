@@ -2,7 +2,14 @@
 <rss version="2.0"><channel>
 <title>SYD Lazarus Pit</title>
 <link>https://syd-idea.pages.dev/</link>
-<lastBuildDate>Sun, 12 Jul 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0000</lastBuildDate>
+<item>
+<title><![CDATA[写给产品经理的状态管理 101]]></title>
+<link>https://syd-idea.pages.dev/note.html?slug=state-management-101-for-pm</link>
+<guid isPermaLink="true">https://syd-idea.pages.dev/note.html?slug=state-management-101-for-pm</guid>
+<pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+<description><![CDATA[用台账、申请单、记账规则的类比，帮产品经理理解 Store / Action / Reducer 的核心骨架——不需要写一行代码，但能在做需求设计时问出更准的问题。]]></description>
+</item>
 <item>
 <title><![CDATA[周报 2026-07-06 ~ 2026-07-12：Studio 视觉深潜，站点归档断档]]></title>
 <link>https://syd-idea.pages.dev/note.html?slug=weekly-review-2026-07-12</link>
