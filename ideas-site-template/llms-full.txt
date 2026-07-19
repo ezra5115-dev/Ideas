@@ -250,6 +250,8 @@ Redux 是这套模式最"教条"的实现（不可变数据、纯函数）；Mob
 原文发布于 Cohub Works 公开页面：
 https://public.cohub.run/s/fa259a3e-3d94-42b4-bae4-e9b1d9082846/state-management-101/index.html
 
+📄 [查看完整原文](/note.html?slug=state-management-101-original)
+
 目标读者是不需要写代码的产品同学，目标是理解"状态管理"在解决什么问题、常见思路、以及对产品设计的启发。文中以 Neta Studio 的多面板 World 作为贯穿案例，从基本模型一直讲到真实多面板场景下的架构取舍。
 
 ## {mine}
@@ -260,7 +262,14 @@ https://public.cohub.run/s/fa259a3e-3d94-42b4-bae4-e9b1d9082846/state-management
 
 第九节的"三类记账方式"表格（覆盖式 / 版本号 / 时间序列）值得单独拿出来用在自己的设计评审里。下次聊多面板 World 的设计时，我会直接让工程师按这三个问题过一遍每类数据，把它当成对齐框架来用。
 
-## {original}
+---
+title: 写给产品经理的状态管理 101（原文）
+date: 2026-07-13
+category: studio
+tags: 状态管理, 产品思维, 前端架构, Redux, 单向数据流, 原文
+source_url: https://public.cohub.run/s/fa259a3e-3d94-42b4-bae4-e9b1d9082846/state-management-101/index.html
+url: https://syd-idea.pages.dev/note.html?slug=state-management-101-original
+---
 
 💡 提示：按 Ctrl+A 全选本页内容，直接粘贴到飞书文档即可保留格式
 
