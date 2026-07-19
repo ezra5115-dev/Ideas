@@ -2,7 +2,14 @@
 <rss version="2.0"><channel>
 <title>SYD Lazarus Pit</title>
 <link>https://syd-idea.pages.dev/</link>
-<lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 19 Jul 2026 00:00:00 +0000</lastBuildDate>
+<item>
+<title><![CDATA[Codex 中文创作者 10 个顶级 Skills]]></title>
+<link>https://syd-idea.pages.dev/note.html?slug=codex-top-10-skills</link>
+<guid isPermaLink="true">https://syd-idea.pages.dev/note.html?slug=codex-top-10-skills</guid>
+<pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+<description><![CDATA[很多人用 Codex 第一反应是让它写代码，但对中文内容创作者来说，Codex 真正牛逼的地方是把内容工作流拆成生产线：选题、调研、写作、去 AI 味、封面、卡片、信息图、HTML 发布。SakuAI 整理了一份按实用标准排名的 Top 10 Skills 清单。]]></description>
+</item>
 <item>
 <title><![CDATA[写给产品经理的状态管理 101]]></title>
 <link>https://syd-idea.pages.dev/note.html?slug=state-management-101-for-pm</link>
