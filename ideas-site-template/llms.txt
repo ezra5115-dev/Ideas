@@ -4,6 +4,15 @@
 
 ## Notes
 
+### Codex 中文创作者 10 个顶级 Skills
+
+- Date: 2026-07-19
+- Category: reads
+- Tags: Codex, Skills, 中文创作, AI 写作, 内容创作
+- Summary: 很多人用 Codex 第一反应是让它写代码，但对中文内容创作者来说，Codex 真正牛逼的地方是把内容工作流拆成生产线：选题、调研、写作、去 AI 味、封面、卡片、信息图、HTML 发布。SakuAI 整理了一份按实用标准排名的 Top 10 Skills 清单。
+- Source: Codex 中文创作者 10 个顶级 Skills https://x.com/JackQi82772/status/2069599178926522741
+- URL: https://syd-idea.pages.dev/note.html?slug=codex-top-10-skills
+
 ### 写给产品经理的状态管理 101
 
 - Date: 2026-07-13
