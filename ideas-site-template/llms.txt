@@ -22,6 +22,15 @@
 - Source: 写给产品经理的状态管理 101 https://public.cohub.run/s/fa259a3e-3d94-42b4-bae4-e9b1d9082846/state-management-101/index.html
 - URL: https://syd-idea.pages.dev/note.html?slug=state-management-101-for-pm
 
+### 写给产品经理的状态管理 101（原文）
+
+- Date: 2026-07-13
+- Category: studio
+- Tags: 状态管理, 产品思维, 前端架构, Redux, 单向数据流, 原文
+- Summary: 《写给产品经理的状态管理 101》完整原文存档——用台账、申请单、记账规则的类比，帮产品经理理解 Store / Action / Reducer 的核心骨架。
+- Source: 写给产品经理的状态管理 101 https://public.cohub.run/s/fa259a3e-3d94-42b4-bae4-e9b1d9082846/state-management-101/index.html
+- URL: https://syd-idea.pages.dev/note.html?slug=state-management-101-original
+
 ### 周报 2026-07-06 ~ 2026-07-12：Studio 视觉深潜，站点归档断档
 
 - Date: 2026-07-12
