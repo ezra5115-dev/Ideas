@@ -4,13 +4,12 @@
 
 ## Notes
 
-### 《极乐迪斯科》美术设定集访谈：末日废土、绘画野性与UI构思
+### 《极乐迪斯科》美术设计：截图原文与逐段翻译
 
 - Date: 2026-07-29
 - Category: reads
-- Tags: 极乐迪斯科, 美术设计, 游戏开发, 访谈, Aleksander Rostov
-- Summary: 《极乐迪斯科》艺术总监 Aleksander Rostov 关于游戏美术诞生历程、风格演变、技能肖像与UI设计的深度访谈与设定集文字实录。
-- Source: The Art and Making of Disco Elysium - Art Direction Interviews https://syd-idea.pages.dev
+- Tags: 极乐迪斯科, 美术设计, 游戏开发, UI设计, Aleksander Rostov
+- Summary: 按截图时间顺序完整整理《极乐迪斯科》美术设定集的英文原文与逐段中文翻译，并讨论限制、肖像叙事与文本界面如何共同塑造游戏。
 - URL: https://syd-idea.pages.dev/note.html?slug=disco-elysium-art-direction-interviews
 
 ### Codex 中文创作者 10 个顶级 Skills
