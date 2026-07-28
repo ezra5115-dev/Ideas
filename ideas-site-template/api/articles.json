@@ -1,7 +1,26 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-07-19",
+  "updated": "2026-07-29",
   "notes": [
+    {
+      "slug": "disco-elysium-art-direction-interviews",
+      "title": "《极乐迪斯科》美术设定集访谈：末日废土、绘画野性与UI构思",
+      "date": "2026-07-29",
+      "category": "reads",
+      "tags": [
+        "极乐迪斯科",
+        "美术设计",
+        "游戏开发",
+        "访谈",
+        "Aleksander Rostov"
+      ],
+      "summary": "《极乐迪斯科》艺术总监 Aleksander Rostov 关于游戏美术诞生历程、风格演变、技能肖像与UI设计的深度访谈与设定集文字实录。",
+      "readMin": 15,
+      "url": "/note.html?slug=disco-elysium-art-direction-interviews",
+      "source_url": "https://syd-idea.pages.dev",
+      "source_title": "The Art and Making of Disco Elysium - Art Direction Interviews",
+      "source_author": "Aleksander Rostov"
+    },
     {
       "slug": "codex-top-10-skills",
       "title": "Codex 中文创作者 10 个顶级 Skills",
