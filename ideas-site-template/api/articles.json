@@ -1,7 +1,26 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-07-29",
+  "updated": "2026-07-30",
   "notes": [
+    {
+      "slug": "artist-ip-ai-era-social-launch",
+      "title": "概念设计师的原创 IP 之路：从 Ashley Wood 到 AI 时代社媒起号实战指南",
+      "date": "2026-07-30",
+      "category": "studio",
+      "tags": [
+        "概念设计",
+        "原创 IP",
+        "AI 创作",
+        "社交媒体",
+        "世界观",
+        "Ashley Wood",
+        "Instagram",
+        "起号"
+      ],
+      "summary": "以 Ashley Wood 为样本，拆解概念设计师如何在 AI 时代从“接项目的画师”升级为“拥有世界的 IP 主理人”，并结合 Arcade California 模式，提供 Instagram / X 双平台 90 天起号实战方案。",
+      "readMin": 25,
+      "url": "/note.html?slug=artist-ip-ai-era-social-launch"
+    },
     {
       "slug": "disco-elysium-art-direction-interviews",
       "title": "《极乐迪斯科》美术设计：截图原文与逐段翻译",
