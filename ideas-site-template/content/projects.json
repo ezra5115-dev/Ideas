@@ -1,6 +1,6 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-07-12",
+  "updated": "2026-08-02",
   "projects": [
     {
       "id": "world-vibe-gtm",
@@ -53,6 +53,14 @@
         {
           "text": "从 Studio 视觉探索沉淀 1 个可复用风格包/护栏规则到 GTM demo",
           "done": false
+        },
+        {
+          "text": "用 AVG-Build 管线 + Demo seed 产出 playable 纵向切片（管线已跑通到 publish）",
+          "done": false
+        },
+        {
+          "text": "把风格库 V4 收口成可交付的 GTM 风格包（命名 + 校验清单）",
+          "done": false
         }
       ]
     },
@@ -102,6 +110,22 @@
         },
         {
           "text": "把本周 Studio 成果回流至少 1 篇 notes（artifact-guard 或视觉方法）",
+          "done": false
+        },
+        {
+          "text": "把 V4→V5 风格库命名与校验方法写成 1 篇 notes",
+          "done": false
+        },
+        {
+          "text": "修复 Daily cron：已确认断档 5 周（最新 6/28）",
+          "done": false
+        },
+        {
+          "text": "补 7/13~7/26 漏掉的两周周报，确认周日 cron 触发",
+          "done": false
+        },
+        {
+          "text": "给 V5 定收口条件：写清要解决 V4 的哪几个问题",
           "done": false
         }
       ]
