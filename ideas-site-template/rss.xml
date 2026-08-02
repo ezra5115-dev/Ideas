@@ -2,7 +2,14 @@
 <rss version="2.0"><channel>
 <title>SYD Lazarus Pit</title>
 <link>https://syd-idea.pages.dev/</link>
-<lastBuildDate>Thu, 30 Jul 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 02 Aug 2026 00:00:00 +0000</lastBuildDate>
+<item>
+<title><![CDATA[周报 2026-07-27 ~ 2026-08-02：风格库吃掉一半产能，AVG 管线跑起来了]]></title>
+<link>https://syd-idea.pages.dev/note.html?slug=weekly-review-2026-08-02</link>
+<guid isPermaLink="true">https://syd-idea.pages.dev/note.html?slug=weekly-review-2026-08-02</guid>
+<pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+<description><![CDATA[本周站点新增 2 篇笔记；Cohub 侧 87 个会话、23 个 Space 有更新，其中 45 个会话集中在风格库 V3→V4→V5。AVG-Build 管线首次跑出成品候选。归档断档比上周好转，但 Daily 仍停在 6/28，周报中间漏了两周。]]></description>
+</item>
 <item>
 <title><![CDATA[概念设计师的原创 IP 之路：从 Ashley Wood 到 AI 时代社媒起号实战指南]]></title>
 <link>https://syd-idea.pages.dev/note.html?slug=artist-ip-ai-era-social-launch</link>
