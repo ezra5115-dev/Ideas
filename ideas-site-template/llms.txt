@@ -4,6 +4,14 @@
 
 ## Notes
 
+### 周报 2026-07-27 ~ 2026-08-02：风格库吃掉一半产能，AVG 管线跑起来了
+
+- Date: 2026-08-02
+- Category: logs
+- Tags: weekly-review, Studio, 风格库, AVG, V5, 归档
+- Summary: 本周站点新增 2 篇笔记；Cohub 侧 87 个会话、23 个 Space 有更新，其中 45 个会话集中在风格库 V3→V4→V5。AVG-Build 管线首次跑出成品候选。归档断档比上周好转，但 Daily 仍停在 6/28，周报中间漏了两周。
+- URL: https://syd-idea.pages.dev/note.html?slug=weekly-review-2026-08-02
+
 ### 概念设计师的原创 IP 之路：从 Ashley Wood 到 AI 时代社媒起号实战指南
 
 - Date: 2026-07-30
