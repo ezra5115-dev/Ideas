@@ -2,7 +2,14 @@
 <rss version="2.0"><channel>
 <title>SYD Lazarus Pit</title>
 <link>https://syd-idea.pages.dev/</link>
-<lastBuildDate>Sun, 02 Aug 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 09 Aug 2026 00:00:00 +0000</lastBuildDate>
+<item>
+<title><![CDATA[周报 2026-08-03 ~ 2026-08-09：站点没有新增笔记]]></title>
+<link>https://syd-idea.pages.dev/note.html?slug=weekly-review-2026-08-09</link>
+<guid isPermaLink="true">https://syd-idea.pages.dev/note.html?slug=weekly-review-2026-08-09</guid>
+<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+<description><![CDATA[本周站点没有新增笔记；两个项目的 checklist 与上周相比没有状态变化。World Vibe GTM 当前完成 3/12，Ideas 网站系统完成 6/13。下周应先补一篇 Studio 方法笔记，再用 AVG-Build 管线完成 GTM 可玩纵向切片，并修复 Daily 断档。]]></description>
+</item>
 <item>
 <title><![CDATA[周报 2026-07-27 ~ 2026-08-02：风格库吃掉一半产能，AVG 管线跑起来了]]></title>
 <link>https://syd-idea.pages.dev/note.html?slug=weekly-review-2026-08-02</link>
