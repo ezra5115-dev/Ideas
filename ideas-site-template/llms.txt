@@ -4,6 +4,14 @@
 
 ## Notes
 
+### 周报 2026-08-10 ~ 2026-08-16：Cohub 侧 52 个会话，站点零写入
+
+- Date: 2026-08-16
+- Category: logs
+- Tags: weekly-review
+- Summary: 本周站点新增笔记 0 篇，两个项目 checklist 无状态变化（GTM 3/12、网站系统 6/13）。但 Cohub 侧很忙：52 个会话、11 个活跃 Space，主线是 X/INS 账号运营、MJ 美学研究与 V5 风格库重建。Daily 断档进入第 7 周。下周建议先把手头的 X 运营材料沉淀成第一篇笔记，再决定 GTM 入口与运营线的关系。
+- URL: https://syd-idea.pages.dev/note.html?slug=weekly-review-2026-08-16
+
 ### 周报 2026-08-03 ~ 2026-08-09：站点没有新增笔记
 
 - Date: 2026-08-09
