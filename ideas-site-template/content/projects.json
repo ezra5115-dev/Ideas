@@ -1,6 +1,6 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-08-09",
+  "updated": "2026-08-16",
   "projects": [
     {
       "id": "world-vibe-gtm",
@@ -60,6 +60,10 @@
         },
         {
           "text": "把风格库 V4 收口成可交付的 GTM 风格包（命名 + 校验清单）",
+          "done": false
+        },
+        {
+          "text": "X/INS 运营矩阵与 GTM 对齐：AI 世界观内容账号（本周启动）作为流量入口实验，验证 Studio/Cohub First 决策",
           "done": false
         }
       ]
@@ -126,6 +130,10 @@
         },
         {
           "text": "给 V5 定收口条件：写清要解决 V4 的哪几个问题",
+          "done": false
+        },
+        {
+          "text": "把 X 运营材料（Musk 算法要点、发帖话术、矩阵概念）沉淀为 1 篇 notes",
           "done": false
         }
       ]
