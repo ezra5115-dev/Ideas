@@ -4,6 +4,14 @@
 
 ## Notes
 
+### 周报 2026-08-17 ~ 2026-08-23：X/INS 运营线跑起来，站点仍零写入
+
+- Date: 2026-08-23
+- Category: logs
+- Tags: weekly-review
+- Summary: 本周站点新增笔记 0 篇，两个项目 checklist 无完成项，但各新增 1 个来自运营线的事项（GTM 3/13、网站系统 6/14）。Cohub 侧 43 个活跃会话，主线是 X+INS 运营（28 个），运营线实质启动。Daily 断档进入第 8 周。下周建议把首批 X 运营/美学材料沉淀成笔记，用运营内容当 GTM 入口试金石，并排查 Daily cron。
+- URL: https://syd-idea.pages.dev/note.html?slug=weekly-review-2026-08-23
+
 ### 周报 2026-08-10 ~ 2026-08-16：Cohub 侧 52 个会话，站点零写入
 
 - Date: 2026-08-16
