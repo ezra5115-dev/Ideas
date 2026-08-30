@@ -1,6 +1,6 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-08-16",
+  "updated": "2026-08-30",
   "projects": [
     {
       "id": "world-vibe-gtm",
@@ -64,6 +64,10 @@
         },
         {
           "text": "X/INS 运营矩阵与 GTM 对齐：AI 世界观内容账号（本周启动）作为流量入口实验，验证 Studio/Cohub First 决策",
+          "done": false
+        },
+        {
+          "text": "基于 Living Fantasy Realms 动态卡系列的真实发布数据，验证受众并推进入口决策",
           "done": false
         }
       ]
@@ -134,6 +138,10 @@
         },
         {
           "text": "把 X 运营材料（Musk 算法要点、发帖话术、矩阵概念）沉淀为 1 篇 notes",
+          "done": false
+        },
+        {
+          "text": "把动态卡面工作流（H3/Seedance 选型 + 提示词工作流）写成 1 篇 notes",
           "done": false
         }
       ]
