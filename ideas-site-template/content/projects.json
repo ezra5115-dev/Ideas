@@ -1,6 +1,6 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-08-30",
+  "updated": "2026-09-06",
   "projects": [
     {
       "id": "world-vibe-gtm",
@@ -68,6 +68,10 @@
         },
         {
           "text": "基于 Living Fantasy Realms 动态卡系列的真实发布数据，验证受众并推进入口决策",
+          "done": false
+        },
+        {
+          "text": "评估 TV Room Prototype 的 Godot 原型（Emberfall / Fate 21 / Bean Runner）作为 playable interactive story 的技术载体，决定继续 AVG-Build 还是迁移",
           "done": false
         }
       ]
