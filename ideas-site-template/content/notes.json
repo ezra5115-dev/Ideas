@@ -1,7 +1,19 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-08-30",
+  "updated": "2026-09-06",
   "notes": [
+    {
+      "slug": "weekly-review-2026-09-06",
+      "title": "周报 2026-08-31 ~ 2026-09-06：一周开六个 Space，运营进验证期，Godot 长出原型，站点零写入第 5 周",
+      "date": "2026-09-06",
+      "category": "logs",
+      "tags": [
+        "weekly-review"
+      ],
+      "summary": "本周 Cohub 208 个活跃会话，x 空间 102 个脚本请求占半壁；新开 6 个 Space——双平台 4 周验证期（9/4）启动即查出数据登记断档，新内容线与「世界老虎机」9/3 同日开工，TV Room Prototype 用 Godot 并行推进 Emberfall / Fate 21 / Bean Runner 三个原型；站点连续第 5 周零写入，checklist 冻结（GTM 3/14、网站 6/15），Daily 断档第 10 周。",
+      "readMin": 6,
+      "url": "/note.html?slug=weekly-review-2026-09-06"
+    },
     {
       "slug": "weekly-review-2026-08-30",
       "title": "周报 2026-08-24 ~ 2026-08-30：动态卡面成主线，X 运营转向内容系列，站点零写入第 4 周",
