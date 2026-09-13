@@ -2,7 +2,14 @@
 <rss version="2.0"><channel>
 <title>SYD Lazarus Pit</title>
 <link>https://syd-idea.pages.dev/</link>
-<lastBuildDate>Sun, 06 Sep 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 13 Sep 2026 00:00:00 +0000</lastBuildDate>
+<item>
+<title><![CDATA[周报 2026-09-07 ~ 2026-09-13：INS 老号被打成劣质账号，MV 产线长出形状，站点零写入第 6 周]]></title>
+<link>https://syd-idea.pages.dev/note.html?slug=weekly-review-2026-09-13</link>
+<guid isPermaLink="true">https://syd-idea.pages.dev/note.html?slug=weekly-review-2026-09-13</guid>
+<pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+<description><![CDATA[本周 Cohub 59 个活跃会话，INS 运营成绝对主线（ins 黑白 15 + X+INS 7，近四成）；9/9 INS 老号被平台评级劣质账号，验证期第二周问题从「数据不登记」升级成「账号被限流」；MV 产线在 ins 黑白 空间成型（H3 Max Turbo 抽帧、孟菲斯 Beat、35 秒切片），Skill 基建补课（EXA/Tavily + GitHub 部署），卡片开始往 3D 立体交互走（holo-card-studio）；站点连续第 6 周零写入，checklist 冻结（GTM 3/15、网站 6/15），Daily 断档第 11 周。]]></description>
+</item>
 <item>
 <title><![CDATA[周报 2026-08-31 ~ 2026-09-06：一周开六个 Space，运营进验证期，Godot 长出原型，站点零写入第 5 周]]></title>
 <link>https://syd-idea.pages.dev/note.html?slug=weekly-review-2026-09-06</link>
