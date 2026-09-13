@@ -1,6 +1,6 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-09-06",
+  "updated": "2026-09-13",
   "projects": [
     {
       "id": "world-vibe-gtm",
@@ -72,6 +72,10 @@
         },
         {
           "text": "评估 TV Room Prototype 的 Godot 原型（Emberfall / Fate 21 / Bean Runner）作为 playable interactive story 的技术载体，决定继续 AVG-Build 还是迁移",
+          "done": false
+        },
+        {
+          "text": "评估 holo-card-studio / Space 卡片 3D 立体交互方案，与 TV Room Godot 原型合并做一次 playable 载体取舍",
           "done": false
         }
       ]
@@ -146,6 +150,18 @@
         },
         {
           "text": "把动态卡面工作流（H3/Seedance 选型 + 提示词工作流）写成 1 篇 notes",
+          "done": false
+        },
+        {
+          "text": "把 INS 救号行动（劣质账号评级原因 + 新号/修号策略）沉淀为 1 篇 notes",
+          "done": false
+        },
+        {
+          "text": "把 MV 产线工作流（H3 Max Turbo 抽帧 + 镜头节奏 + 前三秒钩子）写成 1 篇 notes",
+          "done": false
+        },
+        {
+          "text": "把 Skill 安装/部署流程（EXA/Tavily 配置 + GitHub 验证）写成 1 篇 notes",
           "done": false
         }
       ]
