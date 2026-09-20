@@ -1,6 +1,6 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-09-13",
+  "updated": "2026-09-20",
   "projects": [
     {
       "id": "world-vibe-gtm",
@@ -76,6 +76,14 @@
         },
         {
           "text": "评估 holo-card-studio / Space 卡片 3D 立体交互方案，与 TV Room Godot 原型合并做一次 playable 载体取舍",
+          "done": false
+        },
+        {
+          "text": "把 holo-card-motion Skill 推进到可跑 demo（3–5s 动作视频 → 卡面内嵌），与 TV Room Godot / holo-card-studio 合并做一次载体取舍",
+          "done": false
+        },
+        {
+          "text": "把《一条提示词，造一个能被进入的世界》世界观创作营方案转成可发布的 GTM 内容路径",
           "done": false
         }
       ]
@@ -162,6 +170,14 @@
         },
         {
           "text": "把 Skill 安装/部署流程（EXA/Tavily 配置 + GitHub 验证）写成 1 篇 notes",
+          "done": false
+        },
+        {
+          "text": "把视频 Prompt 写法（事件时间式 / 5 块结构）沉淀为 1 篇 notes",
+          "done": false
+        },
+        {
+          "text": "把余烬纪元卡面产线（主控 handoff + 子 session 分派 + 设计预览到定稿）写成 1 篇 notes",
           "done": false
         }
       ]
