@@ -1,7 +1,19 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-09-13",
+  "updated": "2026-09-20",
   "notes": [
+    {
+      "slug": "weekly-review-2026-09-20",
+      "title": "周报 2026-09-14 ~ 2026-09-20：卡面产线有了主控，视频提示词有了写法，站点零写入第 7 周",
+      "date": "2026-09-20",
+      "category": "logs",
+      "tags": [
+        "weekly-review"
+      ],
+      "summary": "本周 Cohub 74 个活跃会话（上周 59）；SYD_Cards 16 个会话把「余烬纪元」卡面从一张张单排，变成有主控、有交接文档、有子 session 的产线——09A_11 莱恩 V3 动态卡上线，阿夏/莫拉/万斯/无名亡者四个角色出了设计预览；SYD_Making 10 个会话把视频提示词讲清楚（事件时间与帧时间的区别、Hypit 导演引擎、10 页复查手册）；一周新建 3 个正经 Space（世界观教学、Card Awakens、Neta·点火），holo-card-motion Skill 落地；运营双平台进入验证期第三周，INS 粉丝 3→4 是本周唯一正向数字。站点连续第 7 周零写入，checklist 冻结（GTM 3/16、网站 6/18），Daily 断档第 12 周。",
+      "readMin": 6,
+      "url": "/note.html?slug=weekly-review-2026-09-20"
+    },
     {
       "slug": "weekly-review-2026-09-13",
       "title": "周报 2026-09-07 ~ 2026-09-13：INS 老号被打成劣质账号，MV 产线长出形状，站点零写入第 6 周",
