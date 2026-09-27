@@ -2,7 +2,14 @@
 <rss version="2.0"><channel>
 <title>SYD Lazarus Pit</title>
 <link>https://syd-idea.pages.dev/</link>
-<lastBuildDate>Sun, 20 Sep 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 00:00:00 +0000</lastBuildDate>
+<item>
+<title><![CDATA[周报 2026-09-21 ~ 2026-09-27：风格变成能装进别人 Space 的包，运营多了一个 Reddit，站点零写入第 8 周]]></title>
+<link>https://syd-idea.pages.dev/note.html?slug=weekly-review-2026-09-27</link>
+<guid isPermaLink="true">https://syd-idea.pages.dev/note.html?slug=weekly-review-2026-09-27</guid>
+<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+<description><![CDATA[本周 Cohub 45 个活跃会话（上周 74），重心从「做东西」转向「把东西交付出去」——pixel-sticker-style Skill 定稿打包发给同事（带对比页和 zip 下载），圆柱梦境 v1.1 重写成同事 Agent 的调用入口，ArtStyle Atlas 从 200 条来源归并出 55 份候选文档；运营继 X/INS/抖音 之后开始打 Reddit，Echoes of Starfall 卡牌系列出了 15 个角色的英文标题与文案，但主帖被过滤系统移除；中秋当天用 Three.js 搭出 3D 玉兔射击小游戏并发布；世界观教学转向高校课程与 Cohub 培训定位。站点连续第 8 周零写入，checklist 完成项无变化，Daily 断档第 13 周——本周查明根因是两条 cron 早在 6/28 就被禁用，不是没触发。]]></description>
+</item>
 <item>
 <title><![CDATA[周报 2026-09-14 ~ 2026-09-20：卡面产线有了主控，视频提示词有了写法，站点零写入第 7 周]]></title>
 <link>https://syd-idea.pages.dev/note.html?slug=weekly-review-2026-09-20</link>
