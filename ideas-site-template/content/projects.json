@@ -1,6 +1,6 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-09-20",
+  "updated": "2026-09-27",
   "projects": [
     {
       "id": "world-vibe-gtm",
@@ -84,6 +84,10 @@
         },
         {
           "text": "把《一条提示词，造一个能被进入的世界》世界观创作营方案转成可发布的 GTM 内容路径",
+          "done": false
+        },
+        {
+          "text": "评估把 Reddit 作为 X/INS/抖音 之外的第四个运营平台，纳入运营矩阵的验证口径（本周已开始发帖）",
           "done": false
         }
       ]
@@ -178,6 +182,14 @@
         },
         {
           "text": "把余烬纪元卡面产线（主控 handoff + 子 session 分派 + 设计预览到定稿）写成 1 篇 notes",
+          "done": false
+        },
+        {
+          "text": "把风格可交付流程（pixel-sticker-style 打包分发 / 圆柱梦境 v1.1 Agent 入口 / ArtStyle Atlas 55 候选）写成 1 篇 notes",
+          "done": false
+        },
+        {
+          "text": "把 Reddit 运营（Echoes of Starfall 发帖 + 过滤复盘 + AI 披露规则）沉淀为 1 篇 notes",
           "done": false
         }
       ]
