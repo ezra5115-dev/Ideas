@@ -1,6 +1,6 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-09-27",
+  "updated": "2026-10-04",
   "projects": [
     {
       "id": "world-vibe-gtm",
@@ -88,6 +88,14 @@
         },
         {
           "text": "评估把 Reddit 作为 X/INS/抖音 之外的第四个运营平台，纳入运营矩阵的验证口径（本周已开始发帖）",
+          "done": false
+        },
+        {
+          "text": "把 2026-10 战略规划（收窄到垂类、全部视频化；风格库降为长线侧翼）同步进站点，作为运营与 GTM 对齐底稿",
+          "done": false
+        },
+        {
+          "text": "给《王旗与誓约》开包（v3 已上线 + 炉石式开包调研完成）做一次载体验收，把结论并入 #9/#15/#16 的 playable 取舍",
           "done": false
         }
       ]
@@ -190,6 +198,14 @@
         },
         {
           "text": "把 Reddit 运营（Echoes of Starfall 发帖 + 过滤复盘 + AI 披露规则）沉淀为 1 篇 notes",
+          "done": false
+        },
+        {
+          "text": "把拆包团队化（Holo Cards 工作组 + holo-pack-opening v3 + 《王旗与誓约》110 张卡解析）写成 1 篇 notes",
+          "done": false
+        },
+        {
+          "text": "把风格漂移根因 + 机制前置修复（STYLE LOCK 优先级）写成 1 篇 notes",
           "done": false
         }
       ]
