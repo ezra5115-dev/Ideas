@@ -1,7 +1,19 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-09-27",
+  "updated": "2026-10-04",
   "notes": [
+    {
+      "slug": "weekly-review-2026-10-04",
+      "title": "周报 2026-09-28 ~ 2026-10-04：拆包从个人手艺变成团队技能，风格库找到漂移根因，10 月战略收窄到垂类，站点零写入第 9 周",
+      "date": "2026-10-04",
+      "category": "logs",
+      "tags": [
+        "weekly-review"
+      ],
+      "summary": "本周 Cohub 42 个活跃会话（上周 45），9/28–9/30 三个高峰之后是国庆假期的空档。主线是拆包：新开「Holo Cards 工作组」团队空间，holo-pack-opening Skill 出到 v3（亲手撕开 + 蓄势 + 自动模式），README 直接面向组员；SYD_Cards 11 个会话围绕 09A 卡包设计、拆包模块开发、HP TCG/D&D 玩法；《王旗与誓约》banners-oaths v3 上线，下一步做炉石式开包（调研完成、代码未动）。风格库 V8 找到关键根因：漂移不是随机，是 R1→R3 的 probe 叙事负载逐轮加重，模型服从叙事 > 服从画风机制，修复方案「机制前置」把 base 提炼成 STYLE LOCK 放 prompt 最前，试跑 3 条全部回归；119 条中 61 定稿、R4 22 张新图、26 条待生成（credits 耗尽）。SYD_SYD 出了《下阶段规划：2026-10 目标与方向》：复盘「碎片多、对外弱、运营未验证」，选择收窄到垂类、全部视频化，放弃风格号从零起号，风格库降为长线侧翼维护级。站点连续第 9 周零写入，checklist 完成项无变化，Daily 断档第 14 周——两条 cron 仍停在 6/28 disabled。",
+      "readMin": 6,
+      "url": "/note.html?slug=weekly-review-2026-10-04"
+    },
     {
       "slug": "weekly-review-2026-09-27",
       "title": "周报 2026-09-21 ~ 2026-09-27：风格变成能装进别人 Space 的包，运营多了一个 Reddit，站点零写入第 8 周",
