@@ -2,7 +2,14 @@
 <rss version="2.0"><channel>
 <title>SYD Lazarus Pit</title>
 <link>https://syd-idea.pages.dev/</link>
-<lastBuildDate>Sun, 04 Oct 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
+<item>
+<title><![CDATA[周报 2026-10-05 ~ 2026-10-11：拆包 Skill 出到 v5 并被打包进运营发帖，Live2D 工作台立项，站点零写入第 10 周]]></title>
+<link>https://syd-idea.pages.dev/note.html?slug=weekly-review-2026-10-11</link>
+<guid isPermaLink="true">https://syd-idea.pages.dev/note.html?slug=weekly-review-2026-10-11</guid>
+<pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+<description><![CDATA[本周 Cohub 37 个活跃会话（上周 42），节奏集中在 10/8（16）、10/9（17）两天，10/5 与 10/10 几乎空转，10/11 只有本周报。主线仍是拆包：Holo Cards 工作组 11 个会话把 holo-pack-opening 从 v3 推到 v5（V5 Booster form 4、Studio 内附带卡背卡面生成、按世界观定制抽卡特效、移动端验证），并第一次被当成运营素材——X 发帖「卡牌项目新技能批量开卡包」、小红书首帖用「落选图第二波」讲 AI 项目废图；Neta.art 上跑出咒术回战 Cursed Booster 公开 demo（买 3 包 → 撕 3 包 → 每包 8 张 → 21 人卡池 → haul）。新开三条正经线：Live2D 工作台（PSD2Live MCP 引擎，待机循环接缝已验但动作幅度与 12s 时长不合格）、运营方法库·Skill（把 X/INS 双平台方法论与 hyper-search 等沉成可复用 Skill，已挂 r/dndai 周报 cron）、蛛网多元宇宙（一晚上产出十几个蜘蛛侠平行宇宙画风）。风格库 V9 启动（删旧风格、增写实类，库到 107 条），战锤 40K 与咒术回战两个新世界观开张。站点连续第 10 周零写入，Daily 断档第 15 周，两条每日 cron 仍停在 6/28 disabled。]]></description>
+</item>
 <item>
 <title><![CDATA[周报 2026-09-28 ~ 2026-10-04：拆包从个人手艺变成团队技能，风格库找到漂移根因，10 月战略收窄到垂类，站点零写入第 9 周]]></title>
 <link>https://syd-idea.pages.dev/note.html?slug=weekly-review-2026-10-04</link>
