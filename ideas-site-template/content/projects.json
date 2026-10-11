@@ -1,6 +1,6 @@
 {
   "site": "SYD Lazarus Pit",
-  "updated": "2026-10-04",
+  "updated": "2026-10-11",
   "projects": [
     {
       "id": "world-vibe-gtm",
@@ -96,6 +96,18 @@
         },
         {
           "text": "给《王旗与誓约》开包（v3 已上线 + 炉石式开包调研完成）做一次载体验收，把结论并入 #9/#15/#16 的 playable 取舍",
+          "done": false
+        },
+        {
+          "text": "把 holo-pack-opening v5（Studio 内卡背卡面生成 + 按世界观定制特效 + 觉醒卡交互）沉淀为 1 篇 notes，并连到 GTM #9/#13",
+          "done": false
+        },
+        {
+          "text": "给咒术回战 Cursed Booster 公开 demo（买 3 包 → 撕包 → 21 人卡池 → haul）做一次载体验收，结论并入 playable 取舍",
+          "done": false
+        },
+        {
+          "text": "评估 Live2D 工作台（PSD2Live MCP）路线：待机循环动作幅度与时长不合格，与 TV Room Godot / holo-card-studio 合并做载体取舍",
           "done": false
         }
       ]
@@ -206,6 +218,22 @@
         },
         {
           "text": "把风格漂移根因 + 机制前置修复（STYLE LOCK 优先级）写成 1 篇 notes",
+          "done": false
+        },
+        {
+          "text": "把拆包 Skill v5 + 运营咬合（X 发帖 / 小红书首帖）写成 1 篇 notes",
+          "done": false
+        },
+        {
+          "text": "把 Live2D 工作台可行性（PSD2Live MCP + 待机循环验收结论）写成 1 篇 notes",
+          "done": false
+        },
+        {
+          "text": "把风格库 V9 修剪逻辑（删旧风格 / 补写实类 / 压 512 WebP 分享）写成 1 篇 notes",
+          "done": false
+        },
+        {
+          "text": "把运营方法库·Skill 的沉淀（x / x-post-check / insta-stories / hyper-search）写成 1 篇 notes",
           "done": false
         }
       ]
